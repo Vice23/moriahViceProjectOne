@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/ff7d4df1e7.js" crossorigin="anonymous"></script>
+
+    <title>Bar One Blog</title>
+
+</head>
+
+<body>
+    <a href="#mainContent" class="skip-link">Skip to main content.</a>
+    <header>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li class="homeAbout">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                        </ul>
+                    </li>
+                    <li class="logo">
+                        <a href="index.html">Bar-One</a>
+                    </li>
+                    <li class="BlogContact">
+                        <ul>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class = "blogHeader">
+            <h2>Blog</h2>
+        </div>
+    </header>
+
+    <aside>
+        <img src="./assets/sidebar-image.jpg" alt="beer mug getting filled up at tap">
+        <div class="missionContainer">
+            <div class="wrapper">
+                <div class="ourMission">
+                    <h3>Our mission</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    <a href="#">Find out more.</a>
+                </div>
+                <div class="recentPosts">
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Lorem ipsum dolor sit amet</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main id = "mainContent">
+        <section class = "blogEntry">
+            <img class = "blogImage" src="./assets/post-image.jpg" alt="">
+            <div class="wrapper">
+                <div class = "blogText">
+                    <h3>New menu!</h3>
+                    <h4>Monday, January 20, 2021</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni numquam voluptatum alias qui expedita ducimus. Ea, quam, asperiores deserunt, ut temporibus iste corrupti consequatur repellendus qui maiores nisi quos neque!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni numquam voluptatum alias qui expedita ducimus. Ea,
+                    quam, asperiores deserunt, ut temporibus iste corrupti consequatur repellendus qui maiores nisi quos neque!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni numquam voluptatum alias qui expedita ducimus. Ea,
+                    quam, asperiores deserunt, ut temporibus iste corrupti consequatur repellendus qui maiores nisi quos neque!</p>
+                </div>
+            </div>
+        </section>
+        <section class = "blogComments">
+            <div class = "wrapper">
+                <div class = "liveComments">
+                    <h3>Comments:</h3>
+                    <ul class="commentsContainer">
+                        <!-- please note that we're using the same styling for the comments area as the icons + description on the homepage -->
+                        <li class="iconAndDescription">
+                            <ul>
+                                <li class="icon"><img src="./assets/comment-image-1.jpg" alt=""></li>
+                                <li class="description">
+                                    <h4>New Space</h4>
+                                    <p>Ut tells eros, veniculo eu moano nici. Cusco nurtor prat ar enmittic mattic. Communitv Ur Tells nisi
+                                        Cuere murtor arnt or sanittic mattie. Mauric tempus viet sem, sit amet imperfiet dolor placerat.</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="iconAndDescription">
+                            <ul>
+                                <li class="icon"><img src="./assets/comment-image-2.jpg" alt=""></li>
+                                <li class="description">
+                                    <h4>Community</h4>
+                                    <p>Ut tells eros, veniculo eu moano nici. Cusco nurtor prat ar enmittic mattic. Communitv Ur Tells nisi
+                                        Cuere murtor
+                                        arnt or sanittic mattie. Mauric tempus viet sem, sit amet imperfiet dolor placerat.</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class = "submitCommentFormContainer">
+                    <form action="#" method="POST" class="contactForm" name="contactForm">
+                        
+                        <label for="name" >Name</label>
+                        <input type="text" id="name" placeholder="Name">
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email">
+
+                        <label for="comment"> Comment</label>
+                        <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Comment"></textarea>
+
+                        <button>Post Comment</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    
+
+    <footer>
+        <p>Copyright © 2019 HackerYou</p>
+    </footer>
+</body>

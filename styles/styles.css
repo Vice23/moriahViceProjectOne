@@ -262,8 +262,11 @@ h1 {
   letter-spacing: 2.4px;
 }
 
+h2, h3, h4, p, li {
+  margin: 0;
+}
+
 h2 {
-  font-family: "Chathura", sans-serif, sans-serif;
   font-weight: bold;
   font-size: 83.2px;
   line-height: 94.7px;
@@ -271,11 +274,14 @@ h2 {
 }
 
 h3 {
-  font-family: "Chathura", sans-serif, sans-serif;
   font-weight: bold;
   font-size: 68px;
   line-height: 58px;
   letter-spacing: 2.2px;
+}
+
+h4 {
+  color: #FF8327;
 }
 
 button {
