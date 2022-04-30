@@ -226,3 +226,9 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
