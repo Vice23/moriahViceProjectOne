@@ -247,12 +247,19 @@ body {
   font-size: 39px;
   line-height: 58px;
   letter-spacing: 1.9;
+  background-color: #111010;
+  color: #FFFFFF;
 }
 
 .wrapper {
   max-width: 1260px;
   width: 90%;
   margin: 0 auto;
+}
+
+.logo {
+  font-family: "Tulpen One", cursive;
+  font-size: 68px;
 }
 
 h1 {
@@ -291,4 +298,9 @@ button {
   padding: 0 35px;
   border: none;
   display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
