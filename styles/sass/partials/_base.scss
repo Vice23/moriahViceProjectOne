@@ -15,8 +15,7 @@ img {
 // applying global designs
 
 body {
-    font-family: 'Chathura',
-    sans-serif;
+    font-family: $bodyFont;
     font-size: 39px;
     line-height:58px;
     letter-spacing: 1.9;
@@ -29,15 +28,14 @@ body {
 }
 
 h1 {
-    font-family: 'Tulpen One',
-    cursive;
+    font-family: $headingFont;
     font-size: 261.4px;
     text-align: center;
     letter-spacing: 2.4px;
 }
 
 h2 {
-    font-family: 'Chathura',
+    font-family: $bodyFont,
     sans-serif;
     font-weight: bold;
     font-size: 83.2px;
@@ -46,11 +44,20 @@ h2 {
 }
 
 h3 {
-    font-family: 'Chathura',
+    font-family: $bodyFont,
     sans-serif;
     font-weight: bold;
     font-size: 68px;
     line-height: 58px;
     letter-spacing: 2.2px;
+}
+
+button {
+    background-color: $secondary;
+    font-family: $headingFont;
+    color: $primary;
+    padding: 0 35px;
+    border: none;
+    display: inline-block;
 }
 

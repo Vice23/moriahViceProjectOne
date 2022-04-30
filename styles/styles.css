@@ -263,7 +263,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura", sans-serif, sans-serif;
   font-weight: bold;
   font-size: 83.2px;
   line-height: 94.7px;
@@ -271,9 +271,18 @@ h2 {
 }
 
 h3 {
-  font-family: "Chathura", sans-serif;
+  font-family: "Chathura", sans-serif, sans-serif;
   font-weight: bold;
   font-size: 68px;
   line-height: 58px;
   letter-spacing: 2.2px;
+}
+
+button {
+  background-color: #BF2603;
+  font-family: "Tulpen One", cursive;
+  color: #FFFFFF;
+  padding: 0 35px;
+  border: none;
+  display: inline-block;
 }

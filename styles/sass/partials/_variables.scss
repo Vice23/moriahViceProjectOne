@@ -1,6 +1,7 @@
 /* site fonts */
-$headingFont: 'Tulpen One';
-$bodyFont: 'Chathura';
+$headingFont: 'Tulpen One',
+cursive;
+$bodyFont: 'Chathura', sans-serif;
 /* if we set our root element font-size to 125%, then 1 rem = 20px */
 $baseFontSize: 39px;
 
