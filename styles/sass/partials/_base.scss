@@ -1,23 +1,31 @@
 
-// removing default styling
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+// header nav styling
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    
 }
 
-img {
-    max-width: 100%;
-    display: block;
-    height: auto;
+.navigation ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-a {
-    text-decoration: none;
-    color: $primary;
+.homeAbout, .blogContact {
+    text-transform: uppercase;
 }
 
-// header styling
+.navigation li a {
+    padding: 4px 32px;
+}
+
+.logo {
+    font-family: $headingFont;
+    font-size: 68px;
+    
+}
 
 
 // footer styling
@@ -49,10 +57,6 @@ body {
     margin: 0 auto;
 }
 
-.logo {
-    font-family: $headingFont;
-    font-size: 68px;
-}
 
 h1 {
     font-family: $headingFont;

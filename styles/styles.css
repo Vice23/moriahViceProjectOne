@@ -247,6 +247,52 @@ a {
   color: #FFFFFF;
 }
 
+.skipLink {
+  position: absolute;
+  left: -10000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black;
+}
+
+.skipLink:focus {
+  left: 0;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.homeAbout, .blogContact {
+  text-transform: uppercase;
+}
+
+.navigation li a {
+  padding: 4px 32px;
+}
+
+.logo {
+  font-family: "Tulpen One", cursive;
+  font-size: 68px;
+}
+
 footer {
   background-color: #191919;
   text-align: center;
@@ -271,11 +317,6 @@ body {
   max-width: 1260px;
   width: 90%;
   margin: 0 auto;
-}
-
-.logo {
-  font-family: "Tulpen One", cursive;
-  font-size: 68px;
 }
 
 h1 {
