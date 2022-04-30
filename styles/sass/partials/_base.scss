@@ -12,6 +12,26 @@ img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+    color: $primary;
+}
+
+// header styling
+
+
+// footer styling
+footer {
+    background-color: $senary;
+    text-align: center;
+}
+
+/* getting rid of the whitespace around the footer & adding some space (padding) */
+footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
 // applying global designs
 
 body {
@@ -73,8 +93,5 @@ button {
     display: inline-block;
 }
 
-a {
-    text-decoration: none;
-    color: $primary;
-}
+
 

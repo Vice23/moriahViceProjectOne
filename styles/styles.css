@@ -242,6 +242,22 @@ img {
   height: auto;
 }
 
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer {
+  background-color: #191919;
+  text-align: center;
+}
+
+/* getting rid of the whitespace around the footer & adding some space (padding) */
+footer p {
+  margin: 0;
+  padding: 10px 0;
+}
+
 body {
   font-family: "Chathura", sans-serif;
   font-size: 39px;
@@ -298,9 +314,4 @@ button {
   padding: 0 35px;
   border: none;
   display: inline-block;
-}
-
-a {
-  text-decoration: none;
-  color: #FFFFFF;
 }
