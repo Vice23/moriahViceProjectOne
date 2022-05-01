@@ -356,3 +356,32 @@ button {
   border: none;
   display: inline-block;
 }
+
+@media (max-width: 768px) {
+  .navigation li a {
+    padding: 2px 10px;
+  }
+
+  .logo {
+    font-size: 50px;
+  }
+
+  .homeAbout,
+.blogContact {
+    font-size: 35px;
+  }
+}
+@media (max-width: 480px) {
+  .navigation li a {
+    padding: 2px 5px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  .homeAbout,
+.blogContact {
+    font-size: 25px;
+  }
+}
