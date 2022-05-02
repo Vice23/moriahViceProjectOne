@@ -260,6 +260,38 @@ a {
   left: 0;
 }
 
+body {
+  font-family: "Chathura", sans-serif;
+  font-size: 2.438rem;
+  line-height: 3.63rem;
+  letter-spacing: 0.119rem;
+}
+
+h1 {
+  font-family: "Tulpen One", cursive;
+  font-size: 16.34rem;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 5.2rem;
+  line-height: 5.92rem;
+  letter-spacing: 0.17rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 4.25rem;
+  line-height: 3.625rem;
+  letter-spacing: 0.138rem;
+}
+
+h4 {
+  color: #FF8327;
+}
+
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -305,10 +337,6 @@ footer p {
 }
 
 body {
-  font-family: "Chathura", sans-serif;
-  font-size: 39px;
-  line-height: 58px;
-  letter-spacing: 1.9;
   background-color: #111010;
   color: #FFFFFF;
 }
@@ -319,33 +347,8 @@ body {
   margin: 0 auto;
 }
 
-h1 {
-  font-family: "Tulpen One", cursive;
-  font-size: 261.4px;
-  text-align: center;
-  letter-spacing: 2.4px;
-}
-
 h2, h3, h4, p, li {
   margin: 0;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 83.2px;
-  line-height: 94.7px;
-  letter-spacing: 2.6px;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 68px;
-  line-height: 58px;
-  letter-spacing: 2.2px;
-}
-
-h4 {
-  color: #FF8327;
 }
 
 button {

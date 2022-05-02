@@ -1,3 +1,35 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Chathura:wght@400;700&family=Lato&family=Playfair+Display&family=Tulpen+One&display=swap');
 
+body {
+    font-family: $bodyFont;
+    font-size: 2.438rem; // calculates to appx 39px;
+    line-height: 3.63rem; // calculates to appx 58px;
+    letter-spacing: 0.119rem; // appx 1.9px calculation
+}
+
+h1 {
+    font-family: $headingFont;
+    font-size: 16.34rem; // calculates to appx 261.4px
+    text-align: center;
+    letter-spacing: 0.15rem; // appx 2.4px calculation
+}
+
+h2 {
+
+    font-weight: bold;
+    font-size: 5.2rem; // calculates 83.2px
+    line-height: 5.92rem; //calculates appx. 94.7px;
+    letter-spacing: 0.17rem; //calculates appx. 2.6px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 4.25rem; // calculates 68px
+    line-height: 3.625rem; // calculates 58px
+    letter-spacing: 0.138rem; // calculates ~ 2.2px
+}
+
+h4 {
+    color: $tertiary;
+}
