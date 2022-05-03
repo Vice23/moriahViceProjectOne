@@ -1,0 +1,30 @@
+
+// ====================
+// Header Styling Start
+//=====================
+
+header {
+    background-image: url(../assets/home-image-1.jpg);
+    min-height: 80vh;
+    background-size: contain;
+    
+}
+
+.mainHeader {
+    position: relative;
+}
+
+.textArea {
+    z-index: 20;
+    position: absolute;
+    top: 10rem;
+    left: 24rem;
+}
+
+.mainHeader img{
+    position: absolute;
+    bottom: -41rem;
+    right: 0;
+    width: 50%;
+}
+
