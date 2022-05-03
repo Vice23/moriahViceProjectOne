@@ -10,9 +10,11 @@ body {
 
 h1 {
     font-family: $headingFont;
-    font-size: 16.34rem; // calculates to appx 261.4px
-    text-align: center;
+    font-size: 15rem; // 16.34rem calculates to appx 261.4px but this was too large for the given brief 
     letter-spacing: 0.15rem; // appx 2.4px calculation
+    color: $tertiary;
+    margin: 20% 0px 0px 0px;
+    // TRBL
 }
 
 h2 {

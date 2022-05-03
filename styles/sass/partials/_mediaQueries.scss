@@ -1,4 +1,18 @@
 
+@media (max-width: 940px) {
+
+    // re-styling header 
+    .textArea {
+        left: 15rem;
+    }
+    
+    .mainHeader img {
+        position: absolute;
+        bottom: -40rem;
+        width: 60%;
+    }
+}
+
 @media (max-width: 768px) {
     .navigation li a {
         padding: 2px 10px;
@@ -12,11 +26,24 @@
     .blogContact {
         font-size: 35px;
     }
+
+    // re-styling header 
+    .textArea {
+        top: 10rem;
+        left: 5rem;
+    }
+    
+    .mainHeader img {
+        bottom: -38rem;
+        right: 0;
+    }
 }
 
 
-// must be responsive to 320px
-@media (max-width: 480px) {
+// must be responsive to 320px; changed from 480 breakpoint to account for h2 behavior
+@media (max-width: 507px) {
+
+    //re-styling navigation
     .navigation li a {
         padding: 2px 5px;
     }
@@ -29,6 +56,23 @@
     .blogContact {
         font-size: 25px;
     }
+
+    // re-styling header 
+
     
+
+    .textArea {
+        top: 10rem;
+        left: 7%;
+    }
+
+    .textArea h1 {
+        font-size: 10rem;
+    }
+    
+    .mainHeader img {
+        bottom: -40rem;
+        right: 0;
+    }
     
 }

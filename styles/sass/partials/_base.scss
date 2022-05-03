@@ -51,7 +51,12 @@ body {
     margin: 0 auto;
 }
 
-h2, h3, h4, p, li {
+h2 {
+    margin: 10% 0px 10% 2%;
+    // TRBL
+}
+
+h3, h4, p, li {
     margin: 0;
 }
 

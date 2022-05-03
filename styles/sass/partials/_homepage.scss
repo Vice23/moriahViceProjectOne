@@ -5,9 +5,10 @@
 
 header {
     background-image: url(../assets/home-image-1.jpg);
-    min-height: 80vh;
-    background-size: contain;
-    
+    min-height: 75vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mainHeader {
@@ -18,7 +19,7 @@ header {
     z-index: 20;
     position: absolute;
     top: 10rem;
-    left: 24rem;
+    left: 31rem;
 }
 
 .mainHeader img{
