@@ -326,6 +326,19 @@ h4 {
   font-size: 68px;
 }
 
+.skipLink {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black;
+}
+
+.skipLink:focus {
+  left: 0;
+}
+
 footer {
   background-color: #191919;
   text-align: center;
