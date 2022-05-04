@@ -457,6 +457,24 @@ header {
       align-content: center;
 }
 
+.planAheadNewLocations {
+  background-color: #220303;
+  min-height: 500px;
+}
+
+.twoColumnTwoRowContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.twoColumnTwoRowContainer img, .twoColumnTwoRowContainer div {
+  width: calc(50% - 30px);
+  margin-top: -50px;
+}
+
 @media (max-width: 940px) {
   .textArea {
     left: 15rem;

@@ -71,3 +71,36 @@ header {
     align-items: center;
     align-content: center;
 }
+
+// ============================================
+// Two Column Two Row Description Styling END
+//=============================================
+
+
+// ============================================
+// Reservations & Locations Styling Start
+//=============================================
+
+.planAheadNewLocations {
+    background-color: $quinary;
+    min-height: 500px;
+    
+}
+
+.twoColumnTwoRowContainer {
+    display: flex;
+    flex-wrap: wrap;
+    
+    // position: relative;
+    
+}
+
+.twoColumnTwoRowContainer img, .twoColumnTwoRowContainer div{
+    width: calc(50% - 30px);
+    margin-top: -50px;
+}
+
+.twoColumnTwoRowContainer img {
+    // position: absolute;
+    // right: 0;
+}
