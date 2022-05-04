@@ -293,6 +293,12 @@ h4 {
   color: #FF8327;
 }
 
+p {
+  font-size: 1.9rem;
+  letter-spacing: 0.119rem;
+  line-height: 1.3rem;
+}
+
 .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -361,7 +367,7 @@ body {
 
 .wrapper {
   max-width: 1260px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -418,6 +424,37 @@ header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.iconAndDescriptionHomepg {
+  width: calc(50% - 40px);
+  margin: 15px;
+}
+
+.iconAndDescriptionHomepg ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon {
+  background-color: #BF2603;
+  margin-right: 15px;
+  font-size: 26px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 @media (max-width: 940px) {
