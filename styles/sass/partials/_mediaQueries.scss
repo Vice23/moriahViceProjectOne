@@ -59,8 +59,6 @@
 
     // re-styling header 
 
-    
-
     .textArea {
         top: 10rem;
         left: 7%;
@@ -73,6 +71,14 @@
     .mainHeader img {
         bottom: -40rem;
         right: 0;
+    }
+
+    // ============================================
+    // Two Column Two Row Description Styling Start
+    //=============================================
+
+    .iconAndDescriptionContainer {
+        flex-direction: column;
     }
     
 }
