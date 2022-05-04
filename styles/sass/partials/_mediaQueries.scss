@@ -79,6 +79,24 @@
 
     .iconAndDescriptionContainer {
         flex-direction: column;
+        margin-right: 10px;
     }
     
+    .iconAndDescriptionHomepg {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .iconAndDescriptionHomepg ul {
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .icon {
+        align-self:flex-start;
+        font-size: 30px;
+        height: 70px;
+        padding: 10px;
+    }
+
 }
