@@ -38,6 +38,11 @@ header {
 // Header Styling End
 //=====================
 
-// ====================
-// Header Styling Start
-//=====================
+// ============================================
+// Two Column Two Row Description Styling Start
+//=============================================
+
+.iconAndDescriptionContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
