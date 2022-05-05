@@ -83,24 +83,49 @@ header {
 
 .planAheadNewLocations {
     background-color: $quinary;
-    min-height: 500px;
     
 }
 
 .twoColumnTwoRowContainer {
     display: flex;
     flex-wrap: wrap;
-    
-    // position: relative;
-    
-}
-
-.twoColumnTwoRowContainer img, .twoColumnTwoRowContainer div{
-    width: calc(50% - 30px);
-    margin-top: -50px;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .twoColumnTwoRowContainer img {
-    // position: absolute;
-    // right: 0;
+    width: calc(40% - 40px);
+}
+
+.twoColumnTwoRowContainer div {
+    width: calc(37% - 40px);
+}
+
+.newLocations p, .planAhead p {
+    margin: 15px 0px;
+}
+
+.planAhead {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+}
+
+.newLocations {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 4%;
+    text-align: right;
+}
+
+.marginImageUp {
+    margin-top: -70px;
+    box-shadow: 5px 12px 0px 2px $tertiary;
+    align-self: flex-start;
+}
+
+.marginImagedown {
+    margin-left: 18.7rem;
+    margin-bottom: -70px;
+    box-shadow: -16px 15px 0px 2px $tertiary;
 }
