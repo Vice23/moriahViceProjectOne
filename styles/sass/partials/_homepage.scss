@@ -5,7 +5,7 @@
 // Header Styling Start
 //=====================
 
-header {
+.homepageHeader {
     background-image: url(../assets/home-image-1.jpg);
     min-height: 75vh;
     background-size: cover;
@@ -22,6 +22,11 @@ header {
     position: absolute;
     top: 10rem;
     left: 31rem;
+}
+
+.textArea h2 {
+    margin: 10% 0px 10% 2%;
+    // TRBL
 }
 
 .mainHeader img{

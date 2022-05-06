@@ -318,6 +318,7 @@ p {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 2%;
 }
 
 .homeAbout, .blogContact {
@@ -372,10 +373,6 @@ body {
   margin: 0 auto;
 }
 
-h2 {
-  margin: 10% 0px 10% 2%;
-}
-
 h3, h4, p, li {
   margin: 0;
 }
@@ -389,7 +386,7 @@ button {
   display: inline-block;
 }
 
-header {
+.homepageHeader {
   background-image: url(../assets/home-image-1.jpg);
   min-height: 75vh;
   background-size: cover;
@@ -406,6 +403,10 @@ header {
   position: absolute;
   top: 10rem;
   left: 31rem;
+}
+
+.textArea h2 {
+  margin: 10% 0px 10% 2%;
 }
 
 .mainHeader img {
@@ -589,6 +590,18 @@ header {
 .gallery li {
   -ms-flex-preferred-size: calc(32% - 10px);
       flex-basis: calc(32% - 10px);
+}
+
+.blogHeader {
+  background-image: url(../assets/blog-header-1.jpg);
+  min-height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.blogHeader h2 {
+  font-size: 6rem;
 }
 
 @media (max-width: 940px) {
