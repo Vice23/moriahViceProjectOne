@@ -1,8 +1,5 @@
 
-//Link style in navigation
-.homeNavLink {
-    color: $tertiary;
-}
+
 
 // ====================
 // Header Styling Start
@@ -170,7 +167,7 @@ header {
 .fullBleedImage {
     background-image: url(../assets/banner-image.jpg);
     min-height: 450px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 

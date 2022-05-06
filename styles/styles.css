@@ -333,6 +333,10 @@ p {
   font-size: 68px;
 }
 
+.currentNavLink {
+  color: #FF8327;
+}
+
 .skipLink {
   position: absolute;
   left: -1000px;
@@ -383,10 +387,6 @@ button {
   padding: 0 35px;
   border: none;
   display: inline-block;
-}
-
-.homeNavLink {
-  color: #FF8327;
 }
 
 header {
@@ -535,7 +535,7 @@ header {
 .fullBleedImage {
   background-image: url(../assets/banner-image.jpg);
   min-height: 450px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

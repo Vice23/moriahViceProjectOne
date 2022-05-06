@@ -26,6 +26,11 @@
     font-size: 68px;
 }
 
+//Link style in navigation (class changes in HTML)
+.currentNavLink {
+    color: $tertiary;
+}
+
 // Styling accessibility skip link
 .skipLink {
     position: absolute;
@@ -40,10 +45,6 @@
     left:0;
 }
 
-//section (margin) spacing consistent styling
-// section {
-//     margin: 12% 0;
-// }
 
 // footer styling
 footer {
