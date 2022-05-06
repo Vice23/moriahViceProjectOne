@@ -42,6 +42,10 @@ header {
 // Two Column Two Row Description Styling Start
 //=============================================
 
+.twoColumnTwoRowDesc {
+    @include marginSectionLarge;
+}
+
 .iconAndDescriptionContainer {
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +87,7 @@ header {
 
 .planAheadNewLocations {
     background-color: $quinary;
-    
+    @include marginSectionLarge;
 }
 
 .twoColumnTwoRowContainer {
@@ -138,6 +142,11 @@ header {
 // ============================================
 // Want to Host a Party Start
 //=============================================
+
+.hostPartyCTA {
+    @include marginSectionSmall;
+}
+
 .wantToHostAParty {
     text-align: center;
 }
@@ -173,6 +182,11 @@ header {
 // Events Start
 //=============================================
 
+.events {
+    @include marginSectionSmall;
+}
+
+
 .eventsContainer {
     display: flex;
     align-items: flex-start;
@@ -202,6 +216,21 @@ header {
 // Gallery Start
 //=============================================
 
+.galleryHomepage {
+    margin: 0%;
+    padding: 8% 0px;
+    background-color: $quinary;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery li {
+    flex-basis: calc(32% - 10px);
+}
 
 // ============================================
 // Gallery End

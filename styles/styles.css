@@ -346,10 +346,6 @@ p {
   left: 0;
 }
 
-section {
-  margin: 12% 0;
-}
-
 footer {
   background-color: #191919;
   text-align: center;
@@ -419,6 +415,10 @@ header {
   width: 50%;
 }
 
+.twoColumnTwoRowDesc {
+  margin: 12% 0 7% 0;
+}
+
 .iconAndDescriptionContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,6 +460,7 @@ header {
 
 .planAheadNewLocations {
   background-color: #220303;
+  margin: 12% 0 7% 0;
 }
 
 .twoColumnTwoRowContainer {
@@ -515,6 +516,10 @@ header {
           box-shadow: -16px 15px 0px 2px #FF8327;
 }
 
+.hostPartyCTA {
+  margin: 7% 0;
+}
+
 .wantToHostAParty {
   text-align: center;
 }
@@ -532,6 +537,10 @@ header {
   min-height: 450px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.events {
+  margin: 7% 0;
 }
 
 .eventsContainer {
@@ -558,6 +567,28 @@ header {
 
 .eventDescriptionCTA p {
   margin: 15px 0px;
+}
+
+.galleryHomepage {
+  margin: 0%;
+  padding: 8% 0px;
+  background-color: #220303;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery li {
+  -ms-flex-preferred-size: calc(32% - 10px);
+      flex-basis: calc(32% - 10px);
 }
 
 @media (max-width: 940px) {
@@ -730,5 +761,16 @@ header {
   .fullBleedImage {
     background-image: url(../assets/banner-image.jpg);
     min-height: 100px;
+  }
+
+  .gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .gallery li {
+    margin-bottom: 15px;
   }
 }

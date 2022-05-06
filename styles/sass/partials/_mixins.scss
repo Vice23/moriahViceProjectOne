@@ -3,6 +3,14 @@
 // Have the comments & the 4-item homepage segment styled the same
 // Have the comments form & the contact form styled the same
 
+@mixin marginSectionLarge {
+    margin: 12% 0 7% 0;
+    // trbl
+}
+
+@mixin marginSectionSmall {
+    margin: 7% 0;
+}
 
 @mixin shadowLeft {
     box-shadow: -16px 15px 0px 2px $tertiary;
