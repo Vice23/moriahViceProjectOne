@@ -614,15 +614,15 @@ button {
 aside {
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  width: 35%;
+  width: 40%;
   margin-top: 9%;
   padding-right: 7%;
 }
 
 aside img {
   max-width: 94%;
-  -webkit-box-shadow: 26px 8px 0px -8px #220303;
-          box-shadow: 26px 8px 0px -8px #220303;
+  -webkit-box-shadow: 35px 8px 0px -8px #220303;
+          box-shadow: 35px 8px 0px -8px #220303;
 }
 
 .missionContainer {
@@ -703,6 +703,19 @@ aside img {
     min-height: 200px;
     background-size: cover;
   }
+
+  aside {
+    padding-right: 0px;
+  }
+
+  aside img {
+    -webkit-box-shadow: 25px 8px 0px -8px #220303;
+            box-shadow: 25px 8px 0px -8px #220303;
+  }
+
+  .missionContainer {
+    padding-bottom: 3.125rem;
+  }
 }
 @media (max-width: 768px) {
   .navigation li a {
@@ -745,6 +758,38 @@ aside img {
 
   .eventsContainer img {
     margin-bottom: 5%;
+  }
+
+  .mainContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+    margin-top: 0px;
+    padding: 7% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #220303;
+  }
+
+  aside img {
+    width: 60%;
+  }
+
+  .missionContainer {
+    padding-bottom: 3.125rem;
+  }
+
+  .blogEntry {
+    margin-top: 0px;
   }
 }
 @media (max-width: 507px) {
@@ -865,5 +910,21 @@ aside img {
 
   .gallery li {
     margin-bottom: 15px;
+  }
+
+  aside {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 3.125rem;
+  }
+
+  aside img {
+    width: 80%;
+  }
+
+  .missionContainer {
+    margin-left: 0px;
   }
 }

@@ -41,6 +41,33 @@
     //***********************************************
     //HOMEPAGE STYLING END 940px
     //***********************************************
+
+    //***********************************************
+    //BLOG PAGE STYLING START 940px
+    //***********************************************
+
+    // =======================
+    // Aside (Our Mission) styling Start 
+    //========================  
+    
+    aside {
+        padding-right: 0px;
+    }
+    
+    aside img {
+        
+        box-shadow: 25px 8px 0px -8px $quinary;
+    }
+
+    .missionContainer {
+        padding-bottom: 3.125rem;
+    }
+
+    // =======================
+    // Aside (Our Mission) styling End 
+    //========================  
+
+
 }
 
 
@@ -99,6 +126,50 @@
     //***********************************************
     //HOMEPAGE STYLING END 768px
     //***********************************************
+
+    //***********************************************
+    //BLOG PAGE STYLING START 940px
+    //***********************************************
+    
+    // =======================
+    // Body of Page styling Start 
+    //========================  
+
+    .mainContent {
+        flex-direction: column;
+    }
+
+    // =======================
+    // Aside (Our Mission) & Blog styling Start 
+    //========================  
+    
+    aside {
+        width: 100%;
+        margin-top: 0px;
+        padding: 7% 0;
+        display: flex;
+        align-items: center;
+        background-color: $quinary;
+    }
+    
+    aside img {
+        width: 60%;
+    }
+    
+    .missionContainer {
+        padding-bottom: 3.125rem;
+    }
+    
+
+    .blogEntry {
+        margin-top: 0px;
+    }
+
+    // =======================
+    // Aside (Our Mission) & Blog styling End 
+    //========================  
+
+
 }
 
 
@@ -252,5 +323,33 @@
     //***********************************************
     //HOMEPAGE STYLING END 507px
     //***********************************************
+
+    //***********************************************
+    //BLOG PAGE STYLING START 507px
+    //***********************************************
+    
+    // =======================
+    // Body of Page styling Start 
+    //========================  
+
+    // =======================
+    // Aside (Our Mission) & Blog styling Start 
+    //========================  
+    
+    aside {
+        flex-direction: column;
+        padding-top: 3.125rem;
+    }
+    
+    aside img {
+        width: 80%;
+    }
+    .missionContainer {
+        margin-left: 0px;
+    }
+
+    // =======================
+    // Aside (Our Mission) & Blog styling End 
+    //========================  
 
 }
