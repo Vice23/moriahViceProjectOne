@@ -352,4 +352,28 @@
     // Aside (Our Mission) & Blog styling End 
     //========================  
 
+    // ====================
+    // Comments Styling Start
+    //=====================
+    
+    .profileAndDescriptionBlog ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .profileImage {
+        margin-right: 0px;
+        padding: 0px 0px 10px 0px;
+        // TRBL
+        flex-basis: 5rem;
+    }
+    
+    .description h4 {
+        line-height: 1.5rem;
+    }
+    
+    // ====================
+    // Comments Styling End
+    //=====================
+
 }

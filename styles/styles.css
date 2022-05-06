@@ -445,8 +445,8 @@ button {
 
 .icon {
   background-color: #BF2603;
-  margin-right: 15px;
   font-size: 26px;
+  margin-right: 15px;
   height: 50px;
   padding: 10px;
   border-radius: 50%;
@@ -667,7 +667,8 @@ aside img {
           box-shadow: -18px 18px 0px -5px #FF8327;
 }
 
-.liveComments, .formContainer, .profileAndDescriptionBlog {
+.liveComments, .formContainer,
+.profileAndDescriptionBlog {
   margin: 7% 0;
 }
 
@@ -682,6 +683,23 @@ aside img {
           box-shadow: -16px 7px 0px -6px #111010;
   padding-top: 7%;
   padding-bottom: 7%;
+}
+
+.profileAndDescriptionBlog ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profileImage {
+  margin-right: 15px;
+  padding: 10px;
+  -ms-flex-preferred-size: 20rem;
+      flex-basis: 20rem;
+}
+
+.description h4 {
+  line-height: 1.5rem;
 }
 
 @media (max-width: 940px) {
@@ -926,5 +944,26 @@ aside img {
 
   .missionContainer {
     margin-left: 0px;
+  }
+
+  .profileAndDescriptionBlog ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .profileImage {
+    margin-right: 0px;
+    padding: 0px 0px 10px 0px;
+    -ms-flex-preferred-size: 5rem;
+        flex-basis: 5rem;
+  }
+
+  .description h4 {
+    line-height: 1.5rem;
   }
 }

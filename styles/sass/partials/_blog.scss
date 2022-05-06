@@ -94,7 +94,8 @@ aside img {
     box-shadow: -18px 18px 0px -5px $tertiary;
 }
 
-.liveComments, .formContainer, .profileAndDescriptionBlog {
+.liveComments, .formContainer, ,
+.profileAndDescriptionBlog{
     @include marginSectionSmall;
 }
 
@@ -112,16 +113,23 @@ aside img {
 //=====================
 
 
-
-
-
-
-
-
 // ====================
 // Comments Styling Start
 //=====================
 
+.profileAndDescriptionBlog ul {
+    display: flex;
+}
+
+.profileImage {
+    margin-right: 15px;
+    padding: 10px;
+    flex-basis: 20rem;
+}
+
+.description h4 {
+    line-height: 1.5rem;
+}
 
 // ====================
 // Comments Styling End
