@@ -527,6 +527,13 @@ header {
   margin: 15px 0px;
 }
 
+.fullBleedImage {
+  background-image: url(../assets/banner-image.jpg);
+  min-height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 @media (max-width: 940px) {
   .textArea {
     left: 15rem;
@@ -540,6 +547,11 @@ header {
 
   .twoColumnTwoRowContainer img {
     width: calc(50% - 40px);
+  }
+
+  .fullBleedImage {
+    min-height: 200px;
+    background-size: cover;
   }
 }
 @media (max-width: 768px) {
@@ -640,7 +652,7 @@ header {
     width: calc(100% - 40px);
     -ms-flex-item-align: center;
         align-self: center;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   .marginImageUp {
@@ -672,5 +684,10 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .fullBleedImage {
+    background-image: url(../assets/banner-image.jpg);
+    min-height: 100px;
   }
 }

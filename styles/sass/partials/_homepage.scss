@@ -153,3 +153,18 @@ header {
 // ============================================
 // Want to Host a Party End
 //=============================================
+
+// ============================================
+// Full bleed image Start
+//=============================================
+
+.fullBleedImage {
+    background-image: url(../assets/banner-image.jpg);
+    min-height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+// ============================================
+// Full bleed image End
+//=============================================

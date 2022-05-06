@@ -12,13 +12,26 @@
         width: 60%;
     }
 
-    //=======================================================
+    //======================================================
     // Plan Ahead (Reservations) & New Locations (Locations) 
-    //=======================================================
+    //=====================================================
 
     .twoColumnTwoRowContainer img {
         width: calc(50% - 40px);
     }
+
+    // ============================================
+    // Full bleed image Start
+    //=============================================
+    
+    .fullBleedImage {
+        min-height: 200px;
+        background-size: cover;
+    }
+
+    // ============================================
+    // Full bleed image End
+    //=============================================
 }
 
 @media (max-width: 768px) {
@@ -126,7 +139,7 @@
     .twoColumnTwoRowContainer img {
         width: calc(100% - 40px);
         align-self: center;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     //removing margin styling for desktop
@@ -174,6 +187,19 @@
 
     // ============================================
     // Want to Host a Party End
+    //=============================================
+
+    // ============================================
+    // Full bleed image Start
+    //=============================================
+    
+    .fullBleedImage {
+        background-image: url(../assets/banner-image.jpg);
+        min-height: 100px;
+    }
+
+    // ============================================
+    // Full bleed image End
     //=============================================
 
 }
