@@ -702,6 +702,45 @@ aside img {
   line-height: 1.5rem;
 }
 
+.formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.formContainer .nameAndEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.formContainer .name, .formContainer .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.formContainer input, .formContainer textarea {
+  border: 1px solid;
+  border-color: #FF8327;
+  background-color: #111010;
+  width: 100%;
+}
+.formContainer input {
+  width: 50%;
+  margin: 5% 0;
+}
+.formContainer textarea {
+  padding: 7% 3%;
+  margin: 5% 0;
+}
+
 @media (max-width: 940px) {
   .textArea {
     left: 15rem;

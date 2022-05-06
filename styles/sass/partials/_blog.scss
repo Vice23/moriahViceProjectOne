@@ -134,3 +134,48 @@ aside img {
 // ====================
 // Comments Styling End
 //=====================
+
+// ====================
+// Form Styling Start
+//=====================
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+
+    .nameAndEmail {
+        display: flex;
+        width: 100%;
+    }
+    .name, .email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input, textarea {
+        border: 1px solid;
+        border-color: $tertiary;
+        background-color: $quaternary;
+        width: 100%;
+    }
+
+    input {
+        width: 50%;
+        // padding: 2% 3%;
+        margin: 5% 0;
+    }
+
+    textarea {
+        padding: 7% 3%;
+        margin: 5% 0;
+    }
+
+}
+
+
+
+
+//==================== 
+// Form Styling End
+//=====================
