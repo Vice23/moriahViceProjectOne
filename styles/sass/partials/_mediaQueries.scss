@@ -59,12 +59,28 @@
         right: 0;
     }
 
-    //=======================================================
+    //=====================================================
     // Plan Ahead (Reservations) & New Locations (Locations) 
-    //=======================================================
+    //=====================================================
 
     .twoColumnTwoRowContainer img {
         width: calc(60% - 40px);
+    }
+
+    // ============================================
+    // Events Start
+    //=============================================
+    
+    .eventsContainer {
+        flex-direction: column;
+    }
+
+    .eventDescriptionCTA {
+        margin-left: 0;
+    }
+
+    .eventsContainer img {
+        margin-bottom: 5%;
     }
 }
 

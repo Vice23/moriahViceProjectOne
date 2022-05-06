@@ -102,7 +102,7 @@ header {
 }
 
 .newLocations p, .planAhead p {
-    margin: 15px 0px;
+    @include pPadding;
 }
 
 // to mimic wrapper and align with images
@@ -128,7 +128,7 @@ header {
 
 .marginImagedown {
     margin-bottom: -70px;
-    box-shadow: -16px 15px 0px 2px $tertiary;
+    @include shadowLeft;
 }
 
 // ============================================
@@ -147,7 +147,7 @@ header {
 }
 
 .wantToHostAParty p {
-    margin: 15px 0px;
+    @include pPadding;
 }
 
 // ============================================
@@ -167,4 +167,42 @@ header {
 
 // ============================================
 // Full bleed image End
+//=============================================
+
+// ============================================
+// Events Start
+//=============================================
+
+.eventsContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.eventsContainer img {
+    @include shadowLeft;
+}
+
+.eventDescriptionCTA {
+    margin-left: 10%;
+}
+
+.eventDescriptionCTA h3 {
+    color: $tertiary;
+}
+
+.eventDescriptionCTA p {
+    @include pPadding;
+}
+
+// ============================================
+// Events End
+//=============================================
+
+// ============================================
+// Gallery Start
+//=============================================
+
+
+// ============================================
+// Gallery End
 //=============================================

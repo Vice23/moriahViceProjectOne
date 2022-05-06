@@ -2,3 +2,12 @@
 
 // Have the comments & the 4-item homepage segment styled the same
 // Have the comments form & the contact form styled the same
+
+
+@mixin shadowLeft {
+    box-shadow: -16px 15px 0px 2px $tertiary;
+}
+
+@mixin pPadding {
+    margin: 15px 0px;
+}
