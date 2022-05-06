@@ -13,11 +13,19 @@
     font-size: 6rem; //aligns better with brief
 }
 
+// ====================
+// Header Styling End
+//=====================
 
+// styling aside and blogs to sit beside one another in desktop
 
 .mainContent {
     display:flex;
 }
+
+// ====================
+// Aside Styling Start
+//=====================
 
 aside {
     flex-shrink: 0;
@@ -25,6 +33,56 @@ aside {
     margin-top: 9%;
     padding-right: 7%;
 }
+
+aside img {
+    max-width: 94%;
+    box-shadow: 26px 8px 0px -8px $quinary;
+}
+
+.missionContainer {
+    background-color: $quinary;
+    margin-left: 3.125rem;
+    padding-bottom: 3.125rem;
+}
+
+.ourMission p {
+    margin-top: 0;
+    //to fix ths space the textCTA is causing (line height had no effect)
+    margin-bottom: -5%;
+}
+
+.textCTA {
+    color: $tertiary;
+}
+
+.recentPosts ul {
+    margin-left: .5rem;
+}
+
+.recentPosts li {
+    margin: 0px;
+    line-height: 2.188rem;
+    //default line height did not match brief well
+}
+
+.recentPosts li::before {
+    content: "•";
+    color: $secondary;
+    display: inline-block;
+    width: 1rem;
+    //existing font has bizarre vertical dash bullet, so this had to be changed to match the brief
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:large;
+}
+
+// ====================
+// Aside Styling End
+//=====================
+
+
+// ====================
+// Blog Styling Start
+//=====================
 
 .blogEntry {
     margin-top: -20%;
@@ -47,10 +105,9 @@ aside {
     padding-top: 7%;
     padding-bottom: 7%;
 }
-
-
-
-
+// ====================
+// Blog Styling End
+//=====================
 
 
 
@@ -60,5 +117,10 @@ aside {
 
 
 // ====================
-// Header Styling End
+// Comments Styling Start
+//=====================
+
+
+// ====================
+// Comments Styling End
 //=====================
