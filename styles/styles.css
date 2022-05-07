@@ -385,6 +385,7 @@ button {
   padding: 0 35px;
   border: none;
   display: inline-block;
+  cursor: pointer;
 }
 
 .formContainer {
@@ -907,6 +908,19 @@ aside img {
     font-size: 25px;
   }
 
+  .formContainer .nameAndEmail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formContainer .name {
+    margin-right: 0px;
+  }
+  .formContainer input {
+    margin: 7% 0;
+  }
+
   .textArea {
     top: 10rem;
     left: 7%;
@@ -1048,19 +1062,6 @@ aside img {
 
   .description h4 {
     line-height: 1.5rem;
-  }
-
-  .formContainer .nameAndEmail {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .formContainer .name {
-    margin-right: 0px;
-  }
-  .formContainer input {
-    margin: 7% 0;
   }
 
   .blogForm label {

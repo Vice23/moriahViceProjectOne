@@ -176,7 +176,11 @@
 // must be responsive to 320px; changed from 480 breakpoint to account for h2 behavior on homepage
 @media (max-width: 507px) {
 
-    //re-styling navigation
+    //***********************************************
+    //GLOBAL STYLING END 507px
+     //***********************************************
+    
+     //re-styling navigation
     .navigation li a {
         padding: 2px 5px;
     }
@@ -189,6 +193,26 @@
     .blogContact {
         font-size: 25px;
     }
+
+    //global form restyling (impacts Contact & Blog page)
+    .formContainer {
+        
+        .nameAndEmail {
+            flex-direction: column;
+        }
+        
+        .name {
+            margin-right: 0px;
+        }
+        
+        input {
+            margin: 7% 0;
+        }
+    }
+
+    //***********************************************
+    //GLOBAL STYLING END 507px
+    //***********************************************
 
     //***********************************************
     //HOMEPAGE STYLING START 507px
@@ -379,21 +403,6 @@
     // ====================
     // Comment Form Styling Start
     //=====================
-
-    .formContainer {
-
-        .nameAndEmail {
-            flex-direction: column;
-        }
-
-        .name {
-            margin-right: 0px;
-        }
-
-        input {
-            margin: 7% 0;
-        }
-    }
 
     .blogForm {
     

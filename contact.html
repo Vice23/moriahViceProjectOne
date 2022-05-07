@@ -64,15 +64,21 @@
                 </div>
                 <div class="formContainer">
                     <form action="#" method="POST" class="contactForm" name="contactForm">
-
-                        <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="Name">
-
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Email">
-
-                        <label for="comment"> Comment</label>
-                        <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Message"></textarea>
+                        <div class="nameAndEmail">
+                            <div class="name">
+                                <label for="name">Name</label>
+                                <input type="text" id="name">
+                            </div>
+                    
+                            <div class="email">
+                                <label for="email">Email address</label>
+                                <input type="email" id="email">
+                            </div>
+                        </div>
+                        <div class="messageLabelAndInput">
+                            <label class="sr-only" for="comment"> Comment</label>
+                            <textarea name="comment" id="comment" cols="20" rows="3" placeholder="Message"></textarea>
+                        </div>
 
                         <button>Submit</button>
 
