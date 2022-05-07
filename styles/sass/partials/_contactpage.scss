@@ -1,0 +1,42 @@
+
+
+
+// ====================
+// Form Styling Start
+//=====================
+
+// note - there is a lot of base styling on the form that can be found in the 'base' scss because it applies to multiple forms
+
+.contactForm {
+    background-color: $quinary;
+    padding: 5%;
+    box-shadow: 28px 23px 0px -6px$tertiary;
+
+    label {
+        margin-left: 10%;
+        line-height: 1.3rem; //to align better with brief
+        background-color: $quinary;
+    }
+
+    input,
+    textarea {
+        background-color: $quinary;
+        width: 100%;
+    }
+
+    input {
+        border-color: $primary;
+    }
+
+    textarea {
+        border-color: $primary;
+    }
+
+}
+
+
+
+
+//==================== 
+// Form Styling End
+//=====================

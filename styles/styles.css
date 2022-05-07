@@ -786,6 +786,29 @@ aside img {
   border-color: #FF8327;
 }
 
+.contactForm {
+  background-color: #220303;
+  padding: 5%;
+  -webkit-box-shadow: 28px 23px 0px -6px #FF8327;
+          box-shadow: 28px 23px 0px -6px #FF8327;
+}
+.contactForm label {
+  margin-left: 10%;
+  line-height: 1.3rem;
+  background-color: #220303;
+}
+.contactForm input,
+.contactForm textarea {
+  background-color: #220303;
+  width: 100%;
+}
+.contactForm input {
+  border-color: #FFFFFF;
+}
+.contactForm textarea {
+  border-color: #FFFFFF;
+}
+
 @media (max-width: 940px) {
   .textArea {
     left: 15rem;
