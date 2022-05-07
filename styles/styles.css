@@ -680,7 +680,7 @@ button {
   display: flex;
 }
 
-aside {
+.blogAside {
   -ms-flex-negative: 0;
       flex-shrink: 0;
   width: 40%;
@@ -688,7 +688,7 @@ aside {
   padding-right: 7%;
 }
 
-aside img {
+.blogAside img {
   max-width: 94%;
   -webkit-box-shadow: 35px 8px 0px -8px #220303;
           box-shadow: 35px 8px 0px -8px #220303;
@@ -786,11 +786,54 @@ aside img {
   border-color: #FF8327;
 }
 
+.contactHeader {
+  background-image: url(../assets/contact-header-1.jpg);
+  min-height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.socialAndContactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contactAside {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 30%;
+  margin-top: 9%;
+  padding-right: 7%;
+}
+
+.socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2rem;
+}
+
+.socialMedia li {
+  margin-right: 5%;
+}
+
+.location li {
+  margin: 0px;
+  line-height: 2.188rem;
+}
+
 .contactForm {
   background-color: #220303;
   padding: 5%;
+  width: 100%;
   -webkit-box-shadow: 28px 23px 0px -6px #FF8327;
           box-shadow: 28px 23px 0px -6px #FF8327;
+  margin-top: -10%;
 }
 .contactForm label {
   margin-left: 10%;

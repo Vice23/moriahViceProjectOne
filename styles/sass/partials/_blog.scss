@@ -3,10 +3,7 @@
 //=====================
 .blogHeader {
     background-image: url(../assets/blog-header-1.jpg);
-    min-height: 40vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    @include headerStyleChildPage;
 }
 
 .blogHeader h2 {
@@ -29,14 +26,14 @@
 // Aside Styling Start
 //=====================
 
-aside {
+.blogAside {
     flex-shrink: 0;
     width: 40%;
     margin-top: 9%;
     padding-right: 7%;
 }
 
-aside img {
+.blogAside img {
     max-width: 94%;
     box-shadow: 35px 8px 0px -8px $quinary;
 }
@@ -62,8 +59,7 @@ aside img {
 }
 
 .recentPosts li {
-    margin: 0px;
-    line-height: 2.188rem;
+    @include correctListLineHeight;
     //default line height did not match brief well
 }
 

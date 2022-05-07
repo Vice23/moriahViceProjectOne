@@ -1,16 +1,83 @@
 
+// ====================
+// Heading Styling Start
+//=====================
+
+.contactHeader {
+    background-image: url(../assets/contact-header-1.jpg);
+    @include headerStyleChildPage;
+}
+
+// ====================
+// Heading Styling End
+//=====================
+
+// ====================
+// Container Styling Start
+//=====================
+
+.socialAndContactForm {
+    display: flex;
+    align-items: flex-start;
+}
+
+// ====================
+// Container Styling End
+//=====================
+
+// ====================
+// Aside Styling Start
+//=====================
+
+.contactAside {
+    flex-shrink: 0;
+    width: 30%;
+    margin-top: 9%;
+    padding-right: 7%;
+} 
+
+.socialMedia {
+    display: flex;
+    font-size: 2rem;
+    
+}
+
+.socialMedia li {
+    margin-right: 5%;
+    
+}
+
+.location li {
+    @include correctListLineHeight;
+    //default line height did not match brief well
+}
+
+
+
+
+
+// ====================
+// Aside Styling End
+//=====================
+
+
+
 
 
 // ====================
 // Form Styling Start
 //=====================
 
+
+
 // note - there is a lot of base styling on the form that can be found in the 'base' scss because it applies to multiple forms
 
 .contactForm {
     background-color: $quinary;
     padding: 5%;
+    width: 100%;
     box-shadow: 28px 23px 0px -6px$tertiary;
+    margin-top: -10%;
 
     label {
         margin-left: 10%;

@@ -14,8 +14,8 @@
 
 <body>
     <a href="#mainContent" class="skipLink">Skip to main content.</a>
-    <header>
-        <div class="wrapper">
+    <header class = "contactHeader">
+
             <div class="navigation">
             <nav>
                 <ul>
@@ -38,53 +38,59 @@
             </nav>
             </div>
             <div class="contactHeader">
-                <h2>Get in Touch</h2>
+                <div class="wrapper">
+                    <h2>Get in Touch</h2>
+                </div>
             </div>
-        </div>
     </header>
 
-    <main id="mainContent">
-        <section class="socialAndContactForm">
-            <div class="wrapper">
-                <div class="socialMedia">
+    <main id="mainContent" class = "mainContent">
+        <div class="wrapper">
+            <div class="socialAndContactForm">
+
+                <aside class = "contactAside">
                     <ul class="socialMedia">
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
                         <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
                     </ul>
-                    <p class = "email"><a href="mailto:info@email.com">info@email.com</a></p>
-                    <ul class = "location">
+                    
+                    <p class="email"><a href="mailto:info@email.com">info@email.com</a></p>
+                    
+                    <ul class="location">
                         <li>123 - 456 - 789</li>
                         <li>123 Queen Street West</li>
                         <li>10</li>
                         <li>Toronto, Ontario</li>
                         <li>M5V 2D5</li>
                     </ul>
-                </div>
-                <div class="formContainer contactForm">
-                    <form action="#" method="POST" name="contactForm">
-                        <div class="nameAndEmail">
-                            <div class="name">
+                </aside>
+                
+                <section class="formContainer contactForm">  
+                <form action="#" method="POST" name="contactForm">
+                    <div class="nameAndEmail">
+                        <div class="name">
                                 <label for="name">Name</label>
                                 <input type="text" id="name">
-                            </div>
+                        </div>
                     
-                            <div class="email">
-                                <label for="email">Email address</label>
-                                <input type="email" id="email">
-                            </div>
+                        <div class="email">
+                            <label for="email">Email address</label>
+                            <input type="email" id="email">
                         </div>
-                        <div class="messageLabelAndInput">
-                            <label class="sr-only" for="comment"> Comment</label>
-                            <textarea name="comment" id="comment" cols="20" rows="3" placeholder="Message"></textarea>
-                        </div>
+                    </div>
+                    <div class="messageLabelAndInput">
+                        <label class="sr-only" for="comment"> Comment</label>
+                        <textarea name="comment" id="comment" cols="20" rows="3" placeholder="Message"></textarea>
+                    </div>
 
-                        <button>Submit</button>
+                    <button>Submit</button>
 
-                    </form>
-                </div>
+                </form>
+                </section>
             </div>
+        </div>
         </section>
     </main>
 
