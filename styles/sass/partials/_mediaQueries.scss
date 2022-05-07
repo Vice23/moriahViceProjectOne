@@ -376,4 +376,36 @@
     // Comments Styling End
     //=====================
 
+    // ====================
+    // Comment Form Styling Start
+    //=====================
+
+    .formContainer {
+
+        .nameAndEmail {
+            flex-direction: column;
+        }
+
+        .name {
+            margin-right: 0px;
+        }
+
+        input {
+            margin: 7% 0;
+        }
+    }
+
+    .blogForm {
+    
+        label {
+            margin-left: 0;
+            line-height: 2rem; 
+        }
+    }
+
+
+    // ====================
+    // Comment Form Styling End
+    //=====================
+
 }

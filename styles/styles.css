@@ -387,6 +387,74 @@ button {
   display: inline-block;
 }
 
+.formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.formContainer .nameAndEmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.formContainer .name,
+.formContainer .email {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.formContainer .name {
+  margin-right: 5%;
+}
+.formContainer input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 0 0 5% 0;
+  border-bottom: 1px solid;
+}
+.formContainer textarea {
+  padding: 7%;
+  margin: 5% 0;
+  border: 1px solid;
+}
+.formContainer textarea::-webkit-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Chathura", sans-serif;
+}
+.formContainer textarea::-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Chathura", sans-serif;
+}
+.formContainer textarea:-ms-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Chathura", sans-serif;
+}
+.formContainer textarea::-ms-input-placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Chathura", sans-serif;
+}
+.formContainer textarea::placeholder {
+  color: #FFFFFF;
+  opacity: 1;
+  font-family: "Chathura", sans-serif;
+}
+.formContainer button {
+  width: 100%;
+}
+
 .homepageHeader {
   background-image: url(../assets/home-image-1.jpg);
   min-height: 75vh;
@@ -702,43 +770,19 @@ aside img {
   line-height: 1.5rem;
 }
 
-.formContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.blogForm label {
+  margin-left: 10%;
+  line-height: 1.3rem;
 }
-.formContainer .nameAndEmail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-.formContainer .name, .formContainer .email {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.formContainer input, .formContainer textarea {
-  border: 1px solid;
-  border-color: #FF8327;
+.blogForm input, .blogForm textarea {
   background-color: #111010;
   width: 100%;
 }
-.formContainer input {
-  width: 50%;
-  margin: 5% 0;
+.blogForm input {
+  border-color: #FF8327;
 }
-.formContainer textarea {
-  padding: 7% 3%;
-  margin: 5% 0;
+.blogForm textarea {
+  border-color: #FF8327;
 }
 
 @media (max-width: 940px) {
@@ -1004,5 +1048,23 @@ aside img {
 
   .description h4 {
     line-height: 1.5rem;
+  }
+
+  .formContainer .nameAndEmail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formContainer .name {
+    margin-right: 0px;
+  }
+  .formContainer input {
+    margin: 7% 0;
+  }
+
+  .blogForm label {
+    margin-left: 0;
+    line-height: 2rem;
   }
 }

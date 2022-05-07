@@ -89,6 +89,47 @@ button {
 }
 
 
+//global form styling on blog and contact page
 
+.formContainer {
+    display: flex;
+    flex-direction: column;
 
+    .nameAndEmail {
+        display: flex;
+    }
 
+    .name,
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .name {
+        margin-right: 5%;
+    }
+
+    input {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin: 0 0 5% 0;
+        border-bottom: 1px solid;
+    }
+    
+    textarea {
+        padding: 7%;
+        margin: 5% 0;
+        border: 1px solid;
+
+        &::placeholder {
+                color: $primary;
+                opacity: 1;
+                font-family: $bodyFont;
+        }
+    }
+
+    button {
+        width: 100%;
+    }
+}

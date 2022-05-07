@@ -94,7 +94,7 @@ aside img {
     box-shadow: -18px 18px 0px -5px $tertiary;
 }
 
-.liveComments, .formContainer, ,
+.liveComments, .formContainer,
 .profileAndDescriptionBlog{
     @include marginSectionSmall;
 }
@@ -139,36 +139,26 @@ aside img {
 // Form Styling Start
 //=====================
 
+// note - there is a lot of base styling on the form that can be found in the 'base' scss because it applies to multiple forms
 
-.formContainer {
-    display: flex;
-    flex-direction: column;
+.blogForm {
 
-    .nameAndEmail {
-        display: flex;
-        width: 100%;
-    }
-    .name, .email {
-        display: flex;
-        flex-direction: column;
+    label {
+        margin-left: 10%;
+        line-height: 1.3rem; //to align better with brief
     }
 
     input, textarea {
-        border: 1px solid;
-        border-color: $tertiary;
         background-color: $quaternary;
         width: 100%;
     }
 
     input {
-        width: 50%;
-        // padding: 2% 3%;
-        margin: 5% 0;
+        border-color: $tertiary;
     }
 
     textarea {
-        padding: 7% 3%;
-        margin: 5% 0;
+        border-color: $tertiary;
     }
 
 }
