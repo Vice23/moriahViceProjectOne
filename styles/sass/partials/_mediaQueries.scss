@@ -130,7 +130,7 @@
     //***********************************************
 
     //***********************************************
-    //BLOG PAGE STYLING START 940px
+    //BLOG PAGE STYLING START 768px
     //***********************************************
     
     // =======================
@@ -145,7 +145,7 @@
     // Aside (Our Mission) & Blog styling Start 
     //========================  
     
-    aside {
+    .blogAside {
         width: 100%;
         margin-top: 0px;
         padding: 7% 0;
@@ -154,7 +154,7 @@
         background-color: $quinary;
     }
     
-    aside img {
+    .blogAside img {
         width: 60%;
     }
     
@@ -170,6 +170,56 @@
     // =======================
     // Aside (Our Mission) & Blog styling End 
     //========================  
+    
+    //***********************************************
+    //BLOG PAGE STYLING END 7680px
+    //***********************************************
+
+    //***********************************************
+    //CONTACT PAGE STYLING START 7680px
+    //***********************************************
+
+    // ====================
+    // Container Styling Start
+    //=====================
+
+    .socialAndContactForm {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    // ====================
+    // Container Styling End
+    //=====================
+
+    // ====================
+    // Aside Styling Start
+    //=====================
+
+    .contactAside {
+        width: 100%;
+        display: flex;
+        margin-bottom: 20%;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 0px;
+    }
+
+    .socialMedia {
+        align-self: center;
+    }
+
+    .socialMedia li {
+        align-self: center;
+    }
+    
+    // ====================
+    // Aside Styling End
+    //=====================
+
+    //***********************************************
+    //CONTACT PAGE STYLING END 7680px
+    //***********************************************
 
 
 }
@@ -420,5 +470,9 @@
     // ====================
     // Comment Form Styling End
     //=====================
+
+    //***********************************************
+    //BLOG PAGE STYLING END 507px
+    //***********************************************
 
 }

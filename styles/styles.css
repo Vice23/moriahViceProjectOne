@@ -804,8 +804,6 @@ button {
 }
 
 .contactAside {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
   width: 30%;
   margin-top: 9%;
   padding-right: 7%;
@@ -935,7 +933,7 @@ button {
             flex-direction: column;
   }
 
-  aside {
+  .blogAside {
     width: 100%;
     margin-top: 0px;
     padding: 7% 0;
@@ -948,7 +946,7 @@ button {
     background-color: #220303;
   }
 
-  aside img {
+  .blogAside img {
     width: 60%;
   }
 
@@ -958,6 +956,43 @@ button {
 
   .blogEntry {
     margin-top: 0px;
+  }
+
+  .socialAndContactForm {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+
+  .contactAside {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 0px;
+  }
+
+  .socialMedia {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+
+  .socialMedia li {
+    -ms-flex-item-align: center;
+        align-self: center;
   }
 }
 @media (max-width: 507px) {
