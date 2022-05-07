@@ -975,7 +975,7 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 20%;
+    margin-bottom: 7%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -993,6 +993,10 @@ button {
   .socialMedia li {
     -ms-flex-item-align: center;
         align-self: center;
+  }
+
+  .contactForm {
+    margin-top: 7%;
   }
 }
 @media (max-width: 507px) {
