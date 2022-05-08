@@ -809,7 +809,7 @@ button {
 
 .contactAside {
   width: 30%;
-  margin-top: 9%;
+  margin: 9% 0;
   padding-right: 7%;
 }
 
@@ -979,6 +979,8 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin-bottom: 7%;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -989,18 +991,12 @@ button {
     padding-right: 0px;
   }
 
-  .socialMedia {
-    -ms-flex-item-align: center;
-        align-self: center;
-  }
-
-  .socialMedia li {
-    -ms-flex-item-align: center;
-        align-self: center;
+  .emailContactAside {
+    margin: 5%;
   }
 
   .contactForm {
-    margin-top: 7%;
+    margin-top: 0;
   }
 }
 @media (max-width: 507px) {

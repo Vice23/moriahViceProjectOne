@@ -172,11 +172,11 @@
     //========================  
     
     //***********************************************
-    //BLOG PAGE STYLING END 7680px
+    //BLOG PAGE STYLING END 768px
     //***********************************************
 
     //***********************************************
-    //CONTACT PAGE STYLING START 7680px
+    //CONTACT PAGE STYLING START 768px
     //***********************************************
 
     // ====================
@@ -199,30 +199,36 @@
     .contactAside {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         margin-bottom: 7%;
         align-items: center;
         justify-content: space-between;
         padding-right: 0px;
     }
 
-    .socialMedia {
-        align-self: center;
+    .emailContactAside{
+        margin: 5%;
     }
 
-    .socialMedia li {
-        align-self: center;
-    }
-    
     // ====================
     // Aside Styling End
     //=====================
 
-    .contactForm {
-        margin-top: 7%;
+    // ====================
+    // Form Styling End
+    //=====================
+
+    .contactForm 
+    {
+        margin-top: 0;
     }
 
+    // ====================
+    // Form Styling End
+     //=====================
+
     //***********************************************
-    //CONTACT PAGE STYLING END 7680px
+    //CONTACT PAGE STYLING END 768px
     //***********************************************
 
 
