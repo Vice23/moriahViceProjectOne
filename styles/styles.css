@@ -421,11 +421,15 @@ button {
   border-right: none;
   margin: 0 0 5% 0;
   border-bottom: 1px solid;
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
 }
 .formContainer textarea {
   padding: 7%;
   margin: 5% 0;
   border: 1px solid;
+  color: #FFFFFF;
+  font-family: "Chathura", sans-serif;
 }
 .formContainer textarea::-webkit-input-placeholder {
   color: #FFFFFF;
@@ -481,7 +485,7 @@ button {
 
 .mainHeader img {
   position: absolute;
-  bottom: -41rem;
+  bottom: -43rem;
   right: 0;
   width: 50%;
 }
