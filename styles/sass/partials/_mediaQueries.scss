@@ -51,12 +51,17 @@
     padding-right: 0px;
   }
 
-  aside img {
-    box-shadow: 25px 8px 0px -8px $quinary;
+  .blogAside img {
+    box-shadow: 74px 8px 0px -8px $quinary;
   }
 
   .missionContainer {
     padding-bottom: 3.125rem;
+    margin-right: -3rem;
+  }
+
+  .recentPosts ul li {
+    font-size: 1.875rem;
   }
 
   // =======================

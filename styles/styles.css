@@ -879,13 +879,18 @@ button {
     padding-right: 0px;
   }
 
-  aside img {
-    -webkit-box-shadow: 25px 8px 0px -8px #220303;
-            box-shadow: 25px 8px 0px -8px #220303;
+  .blogAside img {
+    -webkit-box-shadow: 74px 8px 0px -8px #220303;
+            box-shadow: 74px 8px 0px -8px #220303;
   }
 
   .missionContainer {
     padding-bottom: 3.125rem;
+    margin-right: -3rem;
+  }
+
+  .recentPosts ul li {
+    font-size: 1.875rem;
   }
 }
 @media (max-width: 768px) {
