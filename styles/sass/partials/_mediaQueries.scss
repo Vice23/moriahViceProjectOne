@@ -1,488 +1,461 @@
-
 @media (max-width: 940px) {
+  //***********************************************
+  //HOMEPAGE STYLING START 940px
+  //***********************************************
 
-    //***********************************************
-    //HOMEPAGE STYLING START 940px
-    //***********************************************
+  // re-styling header
+  .textArea {
+    left: 15rem;
+  }
 
-    // re-styling header 
-    .textArea {
-        left: 15rem;
-    }
-    
-    .mainHeader img {
-        position: absolute;
-        bottom: -40rem;
-        width: 60%;
-    }
+  .mainHeader img {
+    position: absolute;
+    bottom: -40rem;
+    width: 60%;
+  }
 
-    //========================
-    // Plan Ahead (Reservations) & New Locations (Locations) 
-    // =======================
+  //========================
+  // Plan Ahead (Reservations) & New Locations (Locations)
+  // =======================
 
-    .twoColumnTwoRowContainer img {
-        width: calc(50% - 40px);
-    }
+  .twoColumnTwoRowContainer img {
+    width: calc(50% - 40px);
+  }
 
-    // =======================
-    // Full bleed image Start
-     // =======================
-    
-    .fullBleedImage {
-        min-height: 200px;
-        background-size: cover;
-    }
+  // =======================
+  // Full bleed image Start
+  // =======================
 
-    // =======================
-    // Full bleed image End
-    //========================
+  .fullBleedImage {
+    min-height: 200px;
+    background-size: cover;
+  }
 
+  // =======================
+  // Full bleed image End
+  //========================
 
-    //***********************************************
-    //HOMEPAGE STYLING END 940px
-    //***********************************************
+  //***********************************************
+  //HOMEPAGE STYLING END 940px
+  //***********************************************
 
-    //***********************************************
-    //BLOG PAGE STYLING START 940px
-    //***********************************************
+  //***********************************************
+  //BLOG PAGE STYLING START 940px
+  //***********************************************
 
-    // =======================
-    // Aside (Our Mission) styling Start 
-    //========================  
-    
-    aside {
-        padding-right: 0px;
-    }
-    
-    aside img {
-        
-        box-shadow: 25px 8px 0px -8px $quinary;
-    }
+  // =======================
+  // Aside (Our Mission) styling Start
+  //========================
 
-    .missionContainer {
-        padding-bottom: 3.125rem;
-    }
+  aside {
+    padding-right: 0px;
+  }
 
-    // =======================
-    // Aside (Our Mission) styling End 
-    //========================  
+  aside img {
+    box-shadow: 25px 8px 0px -8px $quinary;
+  }
 
+  .missionContainer {
+    padding-bottom: 3.125rem;
+  }
 
+  // =======================
+  // Aside (Our Mission) styling End
+  //========================
 }
-
 
 @media (max-width: 768px) {
-    .navigation li a {
-        padding: 2px 10px;
-    }
-    
-    .logo {
-        font-size: 50px;
-    }
-    
-    .homeAbout,
-    .blogContact {
-        font-size: 35px;
-    }
+  .navigation li a {
+    padding: 2px 10px;
+  }
 
-    
-    //***********************************************
-    //HOMEPAGE STYLING START 768px
-    //***********************************************
-    
-    // re-styling header 
-    .textArea {
-        top: 10rem;
-        left: 5rem;
-    }
-    
-    .mainHeader img {
-        bottom: -42rem;
-        right: 0;
-    }
+  .logo {
+    font-size: 50px;
+  }
 
-    //=======================
-    // Plan Ahead (Reservations) & New Locations (Locations) 
-    //========================
+  .homeAbout,
+  .blogContact {
+    font-size: 35px;
+  }
 
-    .twoColumnTwoRowContainer img {
-        width: calc(60% - 40px);
-    }
+  //***********************************************
+  //HOMEPAGE STYLING START 768px
+  //***********************************************
 
-    // ======================
-    // Events Start
-    //=======================
-    
-    .eventsContainer {
-        flex-direction: column;
-    }
+  // re-styling header
+  .textArea {
+    top: 10rem;
+    left: 5rem;
+  }
 
-    .eventDescriptionCTA {
-        margin-left: 0;
-    }
+  .mainHeader img {
+    bottom: -40rem;
+    right: 0;
+  }
 
-    .eventsContainer img {
-        margin-bottom: 5%;
-    }
-    
-    //***********************************************
-    //HOMEPAGE STYLING END 768px
-    //***********************************************
+  //=======================
+  // Plan Ahead (Reservations) & New Locations (Locations)
+  //========================
 
-    //***********************************************
-    //BLOG PAGE STYLING START 768px
-    //***********************************************
-    
-    // =======================
-    // Body of Page styling Start 
-    //========================  
+  .twoColumnTwoRowContainer img {
+    width: calc(60% - 40px);
+  }
 
-    .mainContent {
-        flex-direction: column;
-    }
+  // ======================
+  // Events Start
+  //=======================
 
-    // =======================
-    // Aside (Our Mission) & Blog styling Start 
-    //========================  
-    
-    .blogAside {
-        width: 100%;
-        margin-top: 0px;
-        padding: 7% 0;
-        display: flex;
-        align-items: center;
-        background-color: $quinary;
-    }
-    
-    .blogAside img {
-        width: 60%;
-    }
-    
-    .missionContainer {
-        padding-bottom: 3.125rem;
-    }
-    
+  .eventsContainer {
+    flex-direction: column;
+  }
 
-    .blogEntry {
-        margin-top: 0px;
-    }
+  .eventDescriptionCTA {
+    margin-left: 0;
+  }
 
-    // =======================
-    // Aside (Our Mission) & Blog styling End 
-    //========================  
-    
-    //***********************************************
-    //BLOG PAGE STYLING END 768px
-    //***********************************************
+  .eventsContainer img {
+    margin-bottom: 5%;
+  }
 
-    //***********************************************
-    //CONTACT PAGE STYLING START 768px
-    //***********************************************
+  //***********************************************
+  //HOMEPAGE STYLING END 768px
+  //***********************************************
 
-    // ====================
-    // Container Styling Start
-    //=====================
+  //***********************************************
+  //BLOG PAGE STYLING START 768px
+  //***********************************************
 
-    .socialAndContactForm {
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    // ====================
-    // Container Styling End
-    //=====================
+  // =======================
+  // Body of Page styling Start
+  //========================
 
-    // ====================
-    // Aside Styling Start
-    //=====================
+  .mainContent {
+    flex-direction: column;
+  }
 
-    .contactAside {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        margin-bottom: 7%;
-        align-items: center;
-        justify-content: space-between;
-        padding-right: 0px;
-    }
+  // =======================
+  // Aside (Our Mission) & Blog styling Start
+  //========================
 
-    .emailContactAside{
-        margin: 5%;
-    }
+  .blogAside {
+    width: 100%;
+    margin-top: 0px;
+    padding: 7% 0;
+    display: flex;
+    align-items: center;
+    background-color: $quinary;
+  }
 
-    // ====================
-    // Aside Styling End
-    //=====================
+  .blogAside img {
+    width: 60%;
+  }
 
-    // ====================
-    // Form Styling End
-    //=====================
+  .missionContainer {
+    padding-bottom: 3.125rem;
+  }
 
-    .contactForm 
-    {
-        margin-top: 0;
-    }
+  .blogEntry {
+    margin-top: 0px;
+  }
 
-    // ====================
-    // Form Styling End
-     //=====================
+  // =======================
+  // Aside (Our Mission) & Blog styling End
+  //========================
 
-    //***********************************************
-    //CONTACT PAGE STYLING END 768px
-    //***********************************************
+  //***********************************************
+  //BLOG PAGE STYLING END 768px
+  //***********************************************
 
+  //***********************************************
+  //CONTACT PAGE STYLING START 768px
+  //***********************************************
 
+  // ====================
+  // Container Styling Start
+  //=====================
+
+  .socialAndContactForm {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  // ====================
+  // Container Styling End
+  //=====================
+
+  // ====================
+  // Aside Styling Start
+  //=====================
+
+  .contactAside {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0px;
+  }
+
+  .emailContactAside {
+    margin: 5%;
+  }
+
+  // ====================
+  // Aside Styling End
+  //=====================
+
+  // ====================
+  // Form Styling End
+  //=====================
+
+  .contactForm {
+    margin-top: 0;
+  }
+
+  // ====================
+  // Form Styling End
+  //=====================
+
+  //***********************************************
+  //CONTACT PAGE STYLING END 768px
+  //***********************************************
 }
-
 
 // must be responsive to 320px; changed from 480 breakpoint to account for h2 behavior on homepage
 @media (max-width: 507px) {
+  //***********************************************
+  //GLOBAL STYLING START 507px
+  //***********************************************
 
-    //***********************************************
-    //GLOBAL STYLING START 507px
-     //***********************************************
-    
-     //re-styling navigation
-    .navigation li a {
-        padding: 2px 5px;
-    }
-    
-    .logo {
-        font-size: 40px;
-    }
-    
-    .homeAbout,
-    .blogContact {
-        font-size: 25px;
-    }
+  //re-styling navigation
+  .navigation li a {
+    padding: 2px 5px;
+  }
 
-    
+  .logo {
+    font-size: 40px;
+  }
 
-    //global form restyling (impacts Contact & Blog page)
-    .formContainer {
-        
-        .nameAndEmail {
-            flex-direction: column;
-        }
-        
-        .name {
-            margin-right: 0px;
-        }
-        
-        input {
-            margin: 7% 0;
-        }
+  .homeAbout,
+  .blogContact {
+    font-size: 25px;
+  }
+
+  //global form restyling (impacts Contact & Blog page)
+  .formContainer {
+    .nameAndEmail {
+      flex-direction: column;
     }
 
-    //***********************************************
-    //GLOBAL STYLING END 507px
-    //***********************************************
-
-    //***********************************************
-    //HOMEPAGE STYLING START 507px
-    //***********************************************
-
-    // re-styling header 
-
-    .textArea {
-        top: 10rem;
-        left: 7%;
+    .name {
+      margin-right: 0px;
     }
 
-    .textArea h1 {
-        font-size: 10rem;
+    input {
+      margin: 7% 0;
     }
-    
-    .mainHeader img {
-        bottom: -40rem;
-        right: 0;
+  }
+
+  //***********************************************
+  //GLOBAL STYLING END 507px
+  //***********************************************
+
+  //***********************************************
+  //HOMEPAGE STYLING START 507px
+  //***********************************************
+
+  // re-styling header
+
+  .textArea {
+    top: 10rem;
+    left: 7%;
+  }
+
+  .textArea h1 {
+    font-size: 10rem;
+  }
+
+  .mainHeader img {
+    bottom: -40rem;
+    right: 0;
+  }
+
+  // ======================
+  // Two Column Two Row Description Styling Start
+  //=======================
+
+  .iconAndDescriptionContainer {
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .iconAndDescriptionHomepg {
+    width: 100%;
+    margin: 15px;
+  }
+
+  .iconAndDescriptionHomepg ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    align-self: flex-start;
+    font-size: 30px;
+    height: 70px;
+    padding: 10px;
+  }
+
+  //=======================
+  // Plan Ahead (Reservations) & New Locations (Locations)
+  //=======================
+
+  .twoColumnTwoRowContainer {
+    flex-direction: column;
+  }
+
+  .twoColumnTwoRowContainer img {
+    width: calc(100% - 40px);
+    align-self: center;
+    margin-bottom: 0px;
+  }
+
+  //removing margin styling for desktop
+  .marginImageUp {
+    margin-top: -30px;
+
+    // order: 1;
+  }
+
+  .twoColumnTwoRowContainer div {
+    width: 80%;
+    align-self: center;
+    // text-align: center;
+  }
+
+  .planAhead {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+  }
+
+  // ======================
+  // Want to Host a Party Start
+  //=======================
+
+  .wantToHostAParty {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  // ===================
+  // Want to Host a Party End
+  //=====================
+
+  // =====================
+  // Full bleed image Start
+  //=======================
+
+  .fullBleedImage {
+    background-image: url(../assets/banner-image.jpg);
+    min-height: 100px;
+  }
+
+  // =====================
+  // Full bleed image End
+  //======================
+
+  // =====================
+  // Gallery Start
+  //=====================
+
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery li {
+    margin-bottom: 15px;
+  }
+
+  // =====================
+  // Gallery End
+  //=====================
+
+  //***********************************************
+  //HOMEPAGE STYLING END 507px
+  //***********************************************
+
+  //***********************************************
+  //BLOG PAGE STYLING START 507px
+  //***********************************************
+
+  // =======================
+  // Body of Page styling Start
+  //========================
+
+  // =======================
+  // Aside (Our Mission) & Blog styling Start
+  //========================
+
+  aside {
+    flex-direction: column;
+    padding-top: 3.125rem;
+  }
+
+  aside img {
+    width: 80%;
+  }
+  .missionContainer {
+    margin-left: 0px;
+  }
+
+  // =======================
+  // Aside (Our Mission) & Blog styling End
+  //========================
+
+  // ====================
+  // Comments Styling Start
+  //=====================
+
+  .profileAndDescriptionBlog ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profileImage {
+    margin-right: 0px;
+    padding: 0px 0px 10px 0px;
+    // TRBL
+    flex-basis: 5rem;
+  }
+
+  .description h4 {
+    line-height: 1.5rem;
+  }
+
+  // ====================
+  // Comments Styling End
+  //=====================
+
+  // ====================
+  // Comment Form Styling Start
+  //=====================
+
+  .blogForm {
+    label {
+      margin-left: 0;
+      line-height: 2rem;
     }
+  }
 
-    // ======================
-    // Two Column Two Row Description Styling Start
-    //=======================
+  // ====================
+  // Comment Form Styling End
+  //=====================
 
-    .iconAndDescriptionContainer {
-        flex-direction: column;
-        margin-right: 10px;
-    }
-    
-    .iconAndDescriptionHomepg {
-        width: 100%;
-        margin: 15px;
-    }
-
-    .iconAndDescriptionHomepg ul {
-        flex-direction:column;
-        align-items: center;
-    }
-
-    .icon {
-        align-self:flex-start;
-        font-size: 30px;
-        height: 70px;
-        padding: 10px;
-    }
-
-    //=======================
-    // Plan Ahead (Reservations) & New Locations (Locations) 
-    //=======================
-
-    .twoColumnTwoRowContainer {
-        flex-direction:column;
-    }
-
-    .twoColumnTwoRowContainer img {
-        width: calc(100% - 40px);
-        align-self: center;
-        margin-bottom: 0px;
-    }
-
-    //removing margin styling for desktop
-    .marginImageUp {
-        margin-top: -30px;
-        
-        // order: 1;
-    }
-
-    .twoColumnTwoRowContainer div {
-        width: 80%;
-        align-self: center;
-        // text-align: center;
-    }
-
-
-
-    .planAhead {
-        margin-top: 3%;
-        margin-bottom: 3%;
-        margin-right: 5%;
-
-    }
-
-   
-
-    // ======================
-    // Want to Host a Party Start
-    //=======================
-
-    .wantToHostAParty {
-        display:flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
-    // ===================
-    // Want to Host a Party End
-    //=====================
-
-    // =====================
-    // Full bleed image Start
-    //=======================
-    
-    .fullBleedImage {
-        background-image: url(../assets/banner-image.jpg);
-        min-height: 100px;
-    }
-
-    // =====================
-    // Full bleed image End
-    //======================
-
-    // =====================
-    // Gallery Start
-     //=====================
-
-    .gallery {
-        flex-direction: column;
-    }
-
-    .gallery li {
-        margin-bottom: 15px;
-    }
-
-
-    // =====================
-    // Gallery End
-    //=====================
-
-
-    //***********************************************
-    //HOMEPAGE STYLING END 507px
-    //***********************************************
-
-    //***********************************************
-    //BLOG PAGE STYLING START 507px
-    //***********************************************
-    
-    // =======================
-    // Body of Page styling Start 
-    //========================  
-
-    // =======================
-    // Aside (Our Mission) & Blog styling Start 
-    //========================  
-    
-    aside {
-        flex-direction: column;
-        padding-top: 3.125rem;
-    }
-    
-    aside img {
-        width: 80%;
-    }
-    .missionContainer {
-        margin-left: 0px;
-    }
-
-    // =======================
-    // Aside (Our Mission) & Blog styling End 
-    //========================  
-
-    // ====================
-    // Comments Styling Start
-    //=====================
-    
-    .profileAndDescriptionBlog ul {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .profileImage {
-        margin-right: 0px;
-        padding: 0px 0px 10px 0px;
-        // TRBL
-        flex-basis: 5rem;
-    }
-    
-    .description h4 {
-        line-height: 1.5rem;
-    }
-    
-    // ====================
-    // Comments Styling End
-    //=====================
-
-    // ====================
-    // Comment Form Styling Start
-    //=====================
-
-    .blogForm {
-    
-        label {
-            margin-left: 0;
-            line-height: 2rem; 
-        }
-    }
-
-
-    // ====================
-    // Comment Form Styling End
-    //=====================
-
-    //***********************************************
-    //BLOG PAGE STYLING END 507px
-    //***********************************************
-
+  //***********************************************
+  //BLOG PAGE STYLING END 507px
+  //***********************************************
 }
