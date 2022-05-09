@@ -57,12 +57,11 @@
 }
 
 // styling each segment of icon + title + description
-// FLAG FOR MIXIN
+
 .iconAndDescriptionHomepg ul {
   display: flex;
 }
 
-// FLAG FOR MIXIN (will need to remove)
 .icon {
   background-color: $secondary;
   font-size: 26px;

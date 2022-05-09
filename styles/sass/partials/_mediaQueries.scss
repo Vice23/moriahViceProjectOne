@@ -70,6 +70,10 @@
 }
 
 @media (max-width: 768px) {
+  //***********************************************
+  //GLOBAL STYLING START 768px
+  //***********************************************
+
   .navigation li a {
     padding: 2px 10px;
   }
@@ -82,6 +86,9 @@
   .blogContact {
     font-size: 35px;
   }
+  //***********************************************
+  //GLOBAL STYLING END 768px
+  //***********************************************
 
   //***********************************************
   //HOMEPAGE STYLING START 768px
@@ -227,7 +234,7 @@
   //***********************************************
 }
 
-// must be responsive to 320px; changed from 480 breakpoint to account for h2 behavior on homepage
+// responsive to 320px; changed from 480 breakpoint to account for h2 behavior on homepage
 @media (max-width: 507px) {
   //***********************************************
   //GLOBAL STYLING START 507px
@@ -341,14 +348,11 @@
   //removing margin styling for desktop
   .marginImageUp {
     margin-top: -30px;
-
-    // order: 1;
   }
 
   .twoColumnTwoRowContainer div {
     width: 80%;
     align-self: center;
-    // text-align: center;
   }
 
   .planAhead {
@@ -408,10 +412,6 @@
   //***********************************************
   //BLOG PAGE STYLING START 507px
   //***********************************************
-
-  // =======================
-  // Body of Page styling Start
-  //========================
 
   // =======================
   // Aside (Our Mission) & Blog styling Start
