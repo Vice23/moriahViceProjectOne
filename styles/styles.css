@@ -485,7 +485,7 @@ button {
 
 .mainHeader img {
   position: absolute;
-  bottom: -43rem;
+  bottom: -42rem;
   right: 0;
   width: 50%;
 }
@@ -560,7 +560,8 @@ button {
   width: calc(37% - 40px);
 }
 
-.newLocations p, .planAhead p {
+.newLocations p,
+.planAhead p {
   margin: 15px 0px;
 }
 
