@@ -322,7 +322,8 @@ p {
   margin-top: 2%;
 }
 
-.homeAbout, .blogContact {
+.homeAbout,
+.blogContact {
   text-transform: uppercase;
 }
 
@@ -374,7 +375,9 @@ body {
   margin: 0 auto;
 }
 
-h3, h4, li {
+h3,
+h4,
+li {
   margin: 0;
 }
 
@@ -401,6 +404,9 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .formContainer .name,
 .formContainer .email {
@@ -411,6 +417,7 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
 }
 .formContainer .name {
   margin-right: 5%;
@@ -1032,6 +1039,12 @@ button {
     margin: 7% 0;
   }
 
+  .blogForm label,
+.contactForm label {
+    margin-left: 0;
+    line-height: 2rem;
+  }
+
   .textArea {
     top: 10rem;
     left: 7%;
@@ -1177,10 +1190,5 @@ button {
 
   .description h4 {
     line-height: 1.5rem;
-  }
-
-  .blogForm label {
-    margin-left: 0;
-    line-height: 2rem;
   }
 }

@@ -1,142 +1,140 @@
-
 // header nav styling
 
 .navigation {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .navigation ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2%;
 }
 
-.homeAbout, .blogContact {
-    text-transform: uppercase;
+.homeAbout,
+.blogContact {
+  text-transform: uppercase;
 }
 
 .navigation li a {
-    padding: 4px 32px;
+  padding: 4px 32px;
 }
 
 .logo {
-    font-family: $headingFont;
-    font-size: 68px;
+  font-family: $headingFont;
+  font-size: 68px;
 }
 
 //Link style in navigation (class changes in HTML)
 .currentNavLink {
-    color: $tertiary;
+  color: $tertiary;
 }
 
 // Styling accessibility skip link
 .skipLink {
-    position: absolute;
-    left:-1000px;
-    top: 5px;
-    z-index: 999;
-    background: white;
-    color: black;
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black;
 }
 
 .skipLink:focus {
-    left:0;
+  left: 0;
 }
-
 
 // footer styling
 footer {
-    background-color: $senary;
-    text-align: center;
+  background-color: $senary;
+  text-align: center;
 }
 
 /* getting rid of the whitespace around the footer & adding some space (padding) */
 footer p {
-    margin: 0;
-    padding: 10px 0;
+  margin: 0;
+  padding: 10px 0;
 }
 
-// applying global designs 
+// applying global designs
 
 //(see 'typography' for font global styling on fonts & text elements)
 
 body {
-    background-color: $quaternary;
-    color: $primary;
+  background-color: $quaternary;
+  color: $primary;
 }
 
 .wrapper {
-    max-width: 1260px;
-    width: 80%;
-    margin: 0 auto;
+  max-width: 1260px;
+  width: 80%;
+  margin: 0 auto;
 }
 
-
-
-h3, h4, li {
-    margin: 0;
+h3,
+h4,
+li {
+  margin: 0;
 }
 
 button {
-    background-color: $secondary;
-    font-family: $headingFont;
-    color: $primary;
-    padding: 0 35px;
-    border: none;
-    display: inline-block;
-    cursor: pointer;
+  background-color: $secondary;
+  font-family: $headingFont;
+  color: $primary;
+  padding: 0 35px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
 }
-
-
-
 
 //global form styling on blog and contact page
 
 .formContainer {
+  display: flex;
+  flex-direction: column;
+
+  .nameAndEmail {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name,
+  .email {
     display: flex;
     flex-direction: column;
+    width: 100%;
+  }
 
-    .nameAndEmail {
-        display: flex;
-    }
+  .name {
+    margin-right: 5%;
+  }
 
-    .name,
-    .email {
-        display: flex;
-        flex-direction: column;
-    }
+  input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 0 5% 0;
+    border-bottom: 1px solid;
+    color: $primary;
+    font-family: $bodyFont;
+  }
 
-    .name {
-        margin-right: 5%;
-    }
+  textarea {
+    padding: 7%;
+    margin: 5% 0;
+    border: 1px solid;
+    color: $primary;
+    font-family: $bodyFont;
 
-    input {
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        margin: 0 0 5% 0;
-        border-bottom: 1px solid;
-        color: $primary;
-        font-family: $bodyFont;
+    &::placeholder {
+      color: $primary;
+      opacity: 1;
+      font-family: $bodyFont;
     }
-    
-    textarea {
-        padding: 7%;
-        margin: 5% 0;
-        border: 1px solid;
-        color: $primary;
-        font-family: $bodyFont;
+  }
 
-        &::placeholder {
-                color: $primary;
-                opacity: 1;
-                font-family: $bodyFont;
-        }
-    }
-
-    button {
-        width: 100%;
-    }
+  button {
+    width: 100%;
+  }
 }

@@ -1,11 +1,10 @@
-
 // ====================
 // Heading Styling Start
 //=====================
 
 .contactHeader {
-    background-image: url(../assets/contact-header-1.jpg);
-    @include headerStyleChildPage;
+  background-image: url(../assets/contact-header-1.jpg);
+  @include headerStyleChildPage;
 }
 
 // ====================
@@ -17,8 +16,8 @@
 //=====================
 
 .socialAndContactForm {
-    display: flex;
-    align-items: flex-start;
+  display: flex;
+  align-items: flex-start;
 }
 
 // ====================
@@ -30,74 +29,63 @@
 //=====================
 
 .contactAside {
-    width: 30%;
-    margin: 9% 0;
-    padding-right: 7%;
-} 
+  width: 30%;
+  margin: 9% 0;
+  padding-right: 7%;
+}
 
 .socialMedia {
-    display: flex;
-    font-size: 2rem;
-    
+  display: flex;
+  font-size: 2rem;
 }
 
 .socialMedia li {
-    margin-right: 5%;
-    
+  margin-right: 5%;
 }
 
 .location li {
-    @include correctListLineHeight;
-    //default line height did not match brief well
+  @include correctListLineHeight;
+  //default line height did not match brief well
 }
-
 
 // ====================
 // Aside Styling End
 //=====================
 
-
-
 // ====================
 // Form Styling Start
 //=====================
 
-
-
 // note - there is a lot of base styling on the form that can be found in the 'base' scss because it applies to multiple forms
 
 .contactForm {
+  background-color: $quinary;
+  padding: 5%;
+  width: 100%;
+  box-shadow: 28px 23px 0px -6px$tertiary;
+  margin-top: -10%;
+
+  label {
+    margin-left: 10%;
+    line-height: 1.3rem; //to align better with brief
     background-color: $quinary;
-    padding: 5%;
+  }
+
+  input,
+  textarea {
+    background-color: $quinary;
     width: 100%;
-    box-shadow: 28px 23px 0px -6px$tertiary;
-    margin-top: -10%;
+  }
 
-    label {
-        margin-left: 10%;
-        line-height: 1.3rem; //to align better with brief
-        background-color: $quinary;
-    }
+  input {
+    border-color: $primary;
+  }
 
-    input,
-    textarea {
-        background-color: $quinary;
-        width: 100%;
-    }
-
-    input {
-        border-color: $primary;
-    }
-
-    textarea {
-        border-color: $primary;
-    }
-
+  textarea {
+    border-color: $primary;
+  }
 }
 
-
-
-
-//==================== 
+//====================
 // Form Styling End
 //=====================
