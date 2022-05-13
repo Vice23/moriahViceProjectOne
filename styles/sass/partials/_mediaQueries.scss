@@ -82,10 +82,6 @@
     font-size: 50px;
   }
 
-  .homeAbout,
-  .blogContact {
-    font-size: 35px;
-  }
   //***********************************************
   //GLOBAL STYLING END 768px
   //***********************************************
@@ -263,6 +259,7 @@
       justify-content: flex-start;
     }
     
+    //ensuring logo shows first in the menu
     .logo {
       order: 1;
     }
