@@ -912,7 +912,7 @@ button {
   transition: 0.2s;
 }
 
-.accordion:hover {
+.active, .accordion:hover {
   background-color: #220303;
 }
 

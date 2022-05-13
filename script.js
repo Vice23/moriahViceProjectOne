@@ -1,5 +1,9 @@
 
+//========================
 //script for toggling the menu
+//========================
+
+
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
 const hamburger= document.querySelector(".hamburger");
@@ -21,3 +25,24 @@ function toggleMenu() {
 }
 
 hamburger.addEventListener("click", toggleMenu);
+
+//========================
+//accordion on About page
+//========================
+
+const accordion = document.getElementsByClassName("accordion");
+
+for ( i=0; i < accordion.length; i++) {
+  accordion[i].addEventListener("click", function() {
+    //adding and removing the 'active' class to highlight the segment that controls the panel
+    this.parentElement.classList.toggle('active');
+
+    //hiding and showing the active panel using the sibling li
+    const panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}

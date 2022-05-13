@@ -5,11 +5,13 @@
 }
 
 //a lot of styling coming from standard button global styles
-.accordion {
+.accordion  {
    transition: 0.2s;
 }
 
-.accordion:hover {
+
+//adding 
+.active, .accordion:hover {
     background-color: $quinary;
 }
 
