@@ -899,6 +899,30 @@ button {
   border-color: #FFFFFF;
 }
 
+.aboutHeader {
+  background-image: url(../assets/contact-header-1.jpg);
+  min-height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.accordion {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.accordion:hover {
+  background-color: #220303;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #220303;
+  display: none;
+  overflow: hidden;
+}
+
 @media (max-width: 940px) {
   .textArea {
     left: 15rem;

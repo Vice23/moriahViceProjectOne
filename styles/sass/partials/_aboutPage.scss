@@ -1,0 +1,25 @@
+
+.aboutHeader {
+    background-image: url(../assets/contact-header-1.jpg);
+    @include headerStyleChildPage;
+}
+
+//a lot of styling coming from standard button global styles
+.accordion {
+   transition: 0.2s;
+}
+
+.accordion:hover {
+    background-color: $quinary;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: $quinary;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+//Social Media and Contact Info
