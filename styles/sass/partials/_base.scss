@@ -26,12 +26,23 @@
   font-size: 68px;
 }
 
+
 //Link style in navigation (class changes in HTML)
 .currentNavLink {
   color: $tertiary;
 }
 
+//hiding hamburger menu until needed on mobile
+.hamburger {
+  display: none;
+}
+
+
+
+//===========================
 // Styling accessibility skip link
+//===========================
+
 .skipLink {
   position: absolute;
   left: -1000px;
@@ -84,7 +95,6 @@ button {
   color: $primary;
   padding: 0 35px;
   border: none;
-  display: inline-block;
   cursor: pointer;
 }
 

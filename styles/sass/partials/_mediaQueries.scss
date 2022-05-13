@@ -240,19 +240,80 @@
   //GLOBAL STYLING START 507px
   //***********************************************
 
-  //re-styling navigation
-  .navigation li a {
-    padding: 2px 5px;
+    //===========================
+    //styling hamburger navigation start
+    //===========================
+  
+    //restyling items inside hamburger navigation
+
+    //hamburger slide out
+    .hamburger {
+      position: fixed;
+      z-index: 100;
+      top: 1rem;
+      right: 1rem;
+      padding: 4px;
+      cursor: pointer;
+      background: none; //overriding button default colouring background
+    }
+
+        //restyling for mobile
+    .navigation ul {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+    
+    .logo {
+      order: 1;
+    }
+
+    .homeAbout {
+      order: 2;
+    }
+
+    .blogContact {
+      order: 3;
+    }
+  
+    .menu {
+    
+      //for hamburger
+      position: fixed;
+      //hide the mentu by defauly above the screen & animate the change
+      transform: translateY(-100%);
+      transition: transform 0.2s;
+  
+      //position the menu to take up the whole screen
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 90;
+      background: black;
+      padding-top: 4rem;
+    }
+
+  //revealing hamburger
+  .hamburger {
+    display: block;
   }
 
-  .logo {
-    font-size: 40px;
-  }
 
-  .homeAbout,
-  .blogContact {
-    font-size: 25px;
+  //hiding close button until needed
+  .closeIcon {
+    display: none !important; //overriding some font awesome default inline styling
   }
+  
+    //added and removed from JS to show/hide menu
+    .showMenu {
+      transform: translateY(0);
+    }
+  
+    //===========================
+    //styling hamburger navigation end
+    //===========================
+
+
 
   //global form restyling (impacts Contact & Blog page)
   .formContainer {

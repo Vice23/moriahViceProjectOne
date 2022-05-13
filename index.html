@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/ff7d4df1e7.js"
-      crossorigin="anonymous"
-    ></script>
+    
 
     <title>Bar One Homepage</title>
   </head>
@@ -17,17 +14,17 @@
     <header class="homepageHeader">
       <div class="navigation">
         <nav>
-          <ul>
-            <li class="homeAbout">
+          <ul class = "menu">
+            <li class="homeAbout menuItem">
               <ul>
                 <li><a class="currentNavLink" href="index.html">Home</a></li>
                 <li><a class="aboutNavLink" href="#">About</a></li>
               </ul>
             </li>
-            <li class="logo">
+            <li class="logo menuItem">
               <a href="index.html">Bar-One</a>
             </li>
-            <li class="blogContact">
+            <li class="blogContact menuItem">
               <ul>
                 <li><a class="blogNavLink" href="blog.html">Blog</a></li>
                 <li>
@@ -36,6 +33,10 @@
               </ul>
             </li>
           </ul>
+          <button class = "hamburger">
+            <i class=" menuIcon fa-solid fa-bars"></i>
+            <i class="closeIcon fa-solid fa-x"></i>
+          </button>
         </nav>
       </div>
       <div class="mainHeader">
@@ -220,5 +221,9 @@
     <footer>
       <p>Copyright © 2019 HackerYou</p>
     </footer>
+  <script src="https://kit.fontawesome.com/ff7d4df1e7.js" crossorigin="anonymous">
+  </script>
+  <script src ="script.js"></script>
+  
   </body>
 </html>
