@@ -1332,4 +1332,32 @@ button {
   .description h4 {
     line-height: 1.5rem;
   }
+
+  .aboutHeader h3 {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .contactBottomAbout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .contactBottomAbout {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .socialMediaAbout {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }

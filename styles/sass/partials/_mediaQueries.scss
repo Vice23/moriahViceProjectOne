@@ -518,4 +518,28 @@
   //***********************************************
   //BLOG PAGE STYLING END 507px
   //***********************************************
+  
+  //***********************************************
+  //ABOUT PAGE STYLING END 507px
+  //***********************************************
+  
+  .aboutHeader h3 {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .contactBottomAbout {
+    flex-direction: column;
+  }
+
+  .contactBottomAbout {
+    flex-direction: column;
+  }
+
+  .socialMediaAbout {
+    display:flex;
+    justify-content: space-between;
+  }
+
+  
 }
