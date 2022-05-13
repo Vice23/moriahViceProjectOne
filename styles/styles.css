@@ -723,7 +723,7 @@ button {
   font-size: 6rem;
 }
 
-.mainContent {
+.mainContentBlog {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -907,13 +907,34 @@ button {
   background-position: bottom;
 }
 
+.aboutIntroduction {
+  text-align: center;
+}
+
+.aboutIntroduction, .historyAccordion {
+  margin: 7% 0;
+}
+
+.contactAboutPage {
+  background-color: #220303;
+  padding: 5% 0;
+}
+
+.aboutHeader h2 {
+  margin-bottom: 2%;
+}
+
+.aboutHeader h3 {
+  margin-bottom: 2%;
+}
+
 .accordion {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 .active, .accordion:hover {
-  background-color: #220303;
+  background-color: #BF2603;
 }
 
 .panel {
@@ -921,6 +942,15 @@ button {
   background-color: #220303;
   display: none;
   overflow: hidden;
+}
+
+.contactBottomAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 940px) {
@@ -999,7 +1029,7 @@ button {
     margin-bottom: 5%;
   }
 
-  .mainContent {
+  .mainContentBlog {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

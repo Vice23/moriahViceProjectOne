@@ -4,15 +4,40 @@
     @include headerStyleChildPage;
 }
 
+.aboutIntroduction {
+    text-align: center;
+}
+
+.aboutIntroduction, .historyAccordion{
+    @include marginSectionSmall;
+}
+
+.contactAboutPage {
+    background-color: $quinary;
+    padding: 5% 0;
+}
+
+.aboutHeader h2 {
+    margin-bottom: 2%;
+}
+
+.aboutHeader h3 {
+    margin-bottom: 2%;
+}
+
 //a lot of styling coming from standard button global styles
 .accordion  {
    transition: 0.2s;
 }
 
+//add to mobile
+// .accordion button{
+//     width: 100%;
+// }
 
-//adding 
+//active becomes important when hovered
 .active, .accordion:hover {
-    background-color: $quinary;
+    background-color: $secondary;
 }
 
 .panel {
@@ -25,3 +50,8 @@
 
 
 //Social Media and Contact Info
+
+.contactBottomAbout {
+    display: flex;
+    justify-content: space-between;
+}
