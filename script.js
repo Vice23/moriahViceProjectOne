@@ -26,6 +26,8 @@ function toggleMenu() {
 
 hamburger.addEventListener("click", toggleMenu);
 
+//thank you to dev.to for the tutorial https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+
 //========================
 //accordion on About page
 //========================
@@ -46,3 +48,5 @@ for ( i=0; i < accordion.length; i++) {
     }
   });
 }
+
+//thank you to w3schools for the tutorial https://www.w3schools.com/howto/howto_js_accordion.asp
