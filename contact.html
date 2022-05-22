@@ -13,56 +13,69 @@
 
 <body>
     <a href="#mainContent" class="skipLink">Skip to main content.</a>
-    <header class = "contactHeader">
-
-            <div class="navigation">
-                <nav>
-                    <ul class="menu">
-                        <li class="homeAbout menuItem">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a class="aboutNavLink" href="about.html">About</a></li>
-                            </ul>
-                        </li>
-                        <li class="logo menuItem">
-                            <a href="index.html">Bar-One</a>
-                        </li>
-                        <li class="blogContact menuItem">
-                            <ul>
-                                <li><a class="blogNavLink" href="blog.html">Blog</a></li>
-                                <li>
-                                    <a class="currentNavLink contactNavLink" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <button class="hamburger">
-                        <i class=" menuIcon fa-solid fa-bars"></i>
-                        <i class="closeIcon fa-solid fa-x"></i>
-                    </button>
-                </nav>
+    <header class="contactHeader">
+        <div class="navigation">
+            <nav>
+                <ul class="menu">
+                    <li class="homeAbout menuItem">
+                        <ul>
+                            <li>
+                                <a class="homeNavLink" href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a class="aboutNavLink" href="about.html">About</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="logo menuItem">
+                        <a href="index.html">Bar-One</a>
+                    </li>
+                    <li class="blogContact menuItem">
+                        <ul>
+                            <li>
+                                <a class="blogNavLink" href="blog.html">Blog</a>
+                            </li>
+                            <li>
+                                <a class="currentNavLink" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="hamburger">
+                    <i class=" menuIcon fa-solid fa-bars"></i>
+                    <i class="closeIcon fa-solid fa-x"></i>
+                </button>
+            </nav>
+        </div>
+        <div class="contactHeader">
+            <div class="wrapper">
+                <h2>Get in Touch</h2>
             </div>
-            <div class="contactHeader">
-                <div class="wrapper">
-                    <h2>Get in Touch</h2>
-                </div>
-            </div>
+        </div>
     </header>
 
-    <main id="mainContent" class = "mainContent">
+    <main id="mainContent" class="mainContent">
         <div class="wrapper">
             <div class="socialAndContactForm">
 
-                <aside class = "contactAside">
+                <aside class="contactAside">
                     <ul class="socialMedia">
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
                     </ul>
-                    
+
                     <p class="emailContactAside"><a href="mailto:info@email.com">info@email.com</a></p>
-                    
+
                     <ul class="location">
                         <li>123 - 456 - 789</li>
                         <li>123 Queen Street West Unit 10</li>
@@ -70,28 +83,28 @@
                         <li>M5V 2D5</li>
                     </ul>
                 </aside>
-                
-                <section class="formContainer contactForm">  
-                <form action="#" method="POST" name="contactForm">
-                    <div class="nameAndEmail">
-                        <div class="name">
+
+                <section class="formContainer contactForm">
+                    <form action="#" method="POST" name="contactForm">
+                        <div class="nameAndEmail">
+                            <div class="name">
                                 <label for="name">Name</label>
                                 <input type="text" id="name">
-                        </div>
-                    
-                        <div class="email">
-                            <label for="email">Email address</label>
-                            <input type="email" id="email">
-                        </div>
-                    </div>
-                    <div class="messageLabelAndInput">
-                        <label class="sr-only" for="comment"> Comment</label>
-                        <textarea name="comment" id="comment" cols="20" rows="3" placeholder="Message"></textarea>
-                    </div>
+                            </div>
 
-                    <button>Submit</button>
+                            <div class="email">
+                                <label for="email">Email address</label>
+                                <input type="email" id="email">
+                            </div>
+                        </div>
+                        <div class="messageLabelAndInput">
+                            <label class="sr-only" for="comment"> Comment</label>
+                            <textarea name="comment" id="comment" cols="20" rows="3" placeholder="Message"></textarea>
+                        </div>
 
-                </form>
+                        <button>Submit</button>
+
+                    </form>
                 </section>
             </div>
         </div>
