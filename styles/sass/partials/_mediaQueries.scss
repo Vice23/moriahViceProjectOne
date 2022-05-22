@@ -97,7 +97,7 @@
   }
 
   .mainHeader img {
-    bottom: -40rem;
+    bottom: -35rem;
     right: 0;
   }
 
@@ -105,10 +105,65 @@
   // Plan Ahead (Reservations) & New Locations (Locations)
   //========================
 
-  .twoColumnTwoRowContainer img {
-    width: calc(60% - 40px);
-  }
-
+    // ======================
+    // Two Column Two Row Description Styling Start
+    //=======================
+  
+    .iconAndDescriptionContainer {
+      flex-direction: column;
+      margin-right: 10px;
+    }
+  
+    .iconAndDescriptionHomepg {
+      width: 100%;
+      margin: 15px;
+    }
+  
+    .iconAndDescriptionHomepg ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .icon {
+      align-self: flex-start;
+      font-size: 30px;
+      height: 70px;
+      padding: 15px;
+    }
+  
+    .fileIcon {
+      padding: 20px;
+    }
+  
+    //=======================
+    // Plan Ahead (Reservations) & New Locations (Locations)
+    //=======================
+  
+    .twoColumnTwoRowContainer {
+      flex-direction: column;
+    }
+  
+    .twoColumnTwoRowContainer img {
+      width: calc(100% - 40px);
+      align-self: center;
+      margin-bottom: 0px;
+    }
+  
+    //removing margin styling for desktop
+    .marginImageUp {
+      margin-top: -30px;
+    }
+  
+    .twoColumnTwoRowContainer div {
+      width: 80%;
+      align-self: center;
+    }
+  
+    .planAhead {
+      margin-top: 3%;
+      margin-bottom: 3%;
+      margin-right: 5%;
+    }
   // ======================
   // Events Start
   //=======================
@@ -359,65 +414,7 @@
     right: 0;
   }
 
-  // ======================
-  // Two Column Two Row Description Styling Start
-  //=======================
-
-  .iconAndDescriptionContainer {
-    flex-direction: column;
-    margin-right: 10px;
-  }
-
-  .iconAndDescriptionHomepg {
-    width: 100%;
-    margin: 15px;
-  }
-
-  .iconAndDescriptionHomepg ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .icon {
-    align-self: flex-start;
-    font-size: 30px;
-    height: 70px;
-    padding: 15px;
-  }
-
-  .fileIcon {
-    padding: 20px;
-  }
-
-  //=======================
-  // Plan Ahead (Reservations) & New Locations (Locations)
-  //=======================
-
-  .twoColumnTwoRowContainer {
-    flex-direction: column;
-  }
-
-  .twoColumnTwoRowContainer img {
-    width: calc(100% - 40px);
-    align-self: center;
-    margin-bottom: 0px;
-  }
-
-  //removing margin styling for desktop
-  .marginImageUp {
-    margin-top: -30px;
-  }
-
-  .twoColumnTwoRowContainer div {
-    width: 80%;
-    align-self: center;
-  }
-
-  .planAhead {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    margin-right: 5%;
-  }
+  
 
   // ======================
   // Want to Host a Party Start
