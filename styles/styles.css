@@ -419,7 +419,7 @@ li {
   margin: 0;
 }
 
-button {
+button, .callToAction {
   background-color: #BF2603;
   font-family: "Tulpen One", cursive;
   color: #FFFFFF;
