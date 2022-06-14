@@ -105,65 +105,66 @@
   // Plan Ahead (Reservations) & New Locations (Locations)
   //========================
 
-    // ======================
-    // Two Column Two Row Description Styling Start
-    //=======================
-  
-    .iconAndDescriptionContainer {
-      flex-direction: column;
-      margin-right: 10px;
-    }
-  
-    .iconAndDescriptionHomepg {
-      width: 100%;
-      margin: 15px;
-    }
-  
-    .iconAndDescriptionHomepg ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .icon {
-      align-self: flex-start;
-      font-size: 30px;
-      height: 70px;
-      padding: 15px;
-    }
-  
-    .fileIcon {
-      padding: 20px;
-    }
-  
-    //=======================
-    // Plan Ahead (Reservations) & New Locations (Locations)
-    //=======================
-  
-    .twoColumnTwoRowContainer {
-      flex-direction: column;
-    }
-  
-    .twoColumnTwoRowContainer img {
-      width: calc(100% - 40px);
-      align-self: center;
-      margin-bottom: 0px;
-    }
-  
-    //removing margin styling for desktop
-    .marginImageUp {
-      margin-top: -30px;
-    }
-  
-    .twoColumnTwoRowContainer div {
-      width: 80%;
-      align-self: center;
-    }
-  
-    .planAhead {
-      margin-top: 3%;
-      margin-bottom: 3%;
-      margin-right: 5%;
-    }
+  // ======================
+  // Two Column Two Row Description Styling Start
+  //=======================
+
+  .iconAndDescriptionContainer {
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .iconAndDescriptionHomepg {
+    width: 100%;
+    margin: 15px;
+  }
+
+  .iconAndDescriptionHomepg ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icon {
+    align-self: flex-start;
+    font-size: 30px;
+    height: 70px;
+    padding: 15px;
+  }
+
+  .fileIcon {
+    padding: 20px;
+  }
+
+  //=======================
+  // Plan Ahead (Reservations) & New Locations (Locations)
+  //=======================
+
+  .twoColumnTwoRowContainer {
+    flex-direction: column;
+  }
+
+  .twoColumnTwoRowContainer img {
+    width: calc(100% - 40px);
+    align-self: center;
+    margin-bottom: 0px;
+  }
+
+  //removing margin styling for desktop
+  .marginImageUp {
+    margin-top: -30px;
+  }
+
+  .twoColumnTwoRowContainer div {
+    width: 80%;
+    align-self: center;
+  }
+
+  .planAhead {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-right: 5%;
+  }
+
   // ======================
   // Events Start
   //=======================
@@ -242,6 +243,7 @@
     justify-content: center;
     align-content: center;
   }
+
   // ====================
   // Container Styling End
   //=====================
@@ -283,6 +285,28 @@
   //***********************************************
   //CONTACT PAGE STYLING END 768px
   //***********************************************
+
+  //***********************************************
+  //ABOUT PAGE STYLING 507px
+  //***********************************************
+
+  .aboutHeader h3 {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .contactBottomAbout {
+    flex-direction: column;
+  }
+
+  .contactBottomAbout {
+    flex-direction: column;
+  }
+
+  .socialMediaAbout {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 // responsive to 320px; changed from 480 breakpoint to account for h2 behavior on homepage
@@ -291,59 +315,59 @@
   //GLOBAL STYLING START 507px
   //***********************************************
 
-    //===========================
-    //styling hamburger navigation start
-    //===========================
-  
-    //restyling items inside hamburger navigation
+  //===========================
+  //styling hamburger navigation start
+  //===========================
 
-    //hamburger slide out
-    .hamburger {
-      position: fixed;
-      z-index: 100;
-      top: 1rem;
-      right: 1rem;
-      padding: 4px;
-      cursor: pointer;
-      background: none; //overriding button default colouring background
-    }
+  //restyling items inside hamburger navigation
 
-        //restyling for mobile
-    .navigation ul {
-      flex-direction: column;
-      justify-content: flex-start;
-    }
-    
-    //ensuring logo shows first in the menu
-    .logo {
-      order: 1;
-    }
+  //hamburger slide out
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    cursor: pointer;
+    background: none; //overriding button default colouring background
+  }
 
-    .homeAbout {
-      order: 2;
-    }
+  //restyling for mobile
+  .navigation ul {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 
-    .blogContact {
-      order: 3;
-    }
-  
-    .menu {
-    
-      //for hamburger
-      position: fixed;
-      //hide the mentu by defauly above the screen & animate the change
-      transform: translateY(-100%);
-      transition: transform 0.2s;
-  
-      //position the menu to take up the whole screen
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      z-index: 90;
-      background: black;
-      padding-top: 4rem;
-    }
+  //ensuring logo shows first in the menu
+  .logo {
+    order: 1;
+  }
+
+  .homeAbout {
+    order: 2;
+  }
+
+  .blogContact {
+    order: 3;
+  }
+
+  .menu {
+
+    //for hamburger
+    position: fixed;
+    //hide the mentu by defauly above the screen & animate the change
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+
+    //position the menu to take up the whole screen
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    background: black;
+    padding-top: 4rem;
+  }
 
   //revealing hamburger
   .hamburger {
@@ -355,15 +379,15 @@
   .closeIcon {
     display: none !important; //overriding some font awesome default inline styling
   }
-  
-    //added and removed from JS to show/hide menu
-    .showMenu {
-      transform: translateY(0);
-    }
-  
-    //===========================
-    //styling hamburger navigation end
-    //===========================
+
+  //added and removed from JS to show/hide menu
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  //===========================
+  //styling hamburger navigation end
+  //===========================
 
 
 
@@ -414,7 +438,7 @@
     right: 0;
   }
 
-  
+
 
   // ======================
   // Want to Host a Party Start
@@ -480,6 +504,7 @@
   aside img {
     width: 80%;
   }
+
   .missionContainer {
     margin-left: 0px;
   }
@@ -515,28 +540,8 @@
   //***********************************************
   //BLOG PAGE STYLING END 507px
   //***********************************************
-  
-  //***********************************************
-  //ABOUT PAGE STYLING END 507px
-  //***********************************************
-  
-  .aboutHeader h3 {
-    font-size: 3rem;
-    line-height: 2rem;
-  }
 
-  .contactBottomAbout {
-    flex-direction: column;
-  }
 
-  .contactBottomAbout {
-    flex-direction: column;
-  }
 
-  .socialMediaAbout {
-    display:flex;
-    justify-content: space-between;
-  }
 
-  
 }

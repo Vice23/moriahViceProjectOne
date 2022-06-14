@@ -17,9 +17,8 @@ function toggleMenu() {
     menuIcon.style.display = "block";
   } else {
     menu.classList.add("showMenu");
-    //overriding important styling to override font awesome (otherwise bars and close display upon refresh)
+    // important styling to override font awesome (otherwise bars and close display upon refresh)
     closeIcon.style.setProperty('display', 'block', 'important');
-
     menuIcon.style.display = "none";
   }
 }
